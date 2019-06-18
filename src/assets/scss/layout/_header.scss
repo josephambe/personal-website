@@ -28,14 +28,14 @@
 
 			> * {
 				@include vendor('transition', 'opacity 3s ease');
-				@include vendor('transition-delay', '0.5s');
+				@include vendor('transition-delay', '0.25s');
 				opacity: 1;
 			}
 
 			.logo {
 				@include vendor('transition', (
-					'opacity 1.25s ease',
-					'transform 0.5s ease'
+					'opacity 0.25s ease',
+					'transform 0.25s ease'
 				));
 				@include vendor('transition-delay', '0s');
 				display: block;
@@ -45,6 +45,26 @@
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+				}
+				&:hover {
+					opacity:0;
+				}
+			}
+
+			.overlay {
+				@include vendor('transition', (
+								'opacity 1.25s ease',
+								'transform 0.5s ease'
+				));
+				@include vendor('transition-delay', '0s');
+				margin: 0 0 (_size(element-margin) * 0.75) 0;
+
+				img {
+					position: absolute;
+					display: block;
+					margin: 0 auto;
+					max-width: 75%;
+					z-index: 1;
 				}
 			}
 		}
