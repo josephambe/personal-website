@@ -1,14 +1,13 @@
-# gatsby-starter-stellar
+# About
 
-**This starter has been updated for Gatsby.js V2.**
+**This is a personal website I made to keep track of my projects and events I've been to.**
 
-**The older V1 version of this starter can be found in the V1 branch**
+**I based this website on the gastbsy-starter-stellar template.**
 
-Gatsby.js V2 starter based on the Stellar site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
 
-## Preview
+## To Do
 
-https://gatsby-stellar.surge.sh/
+Everything
 
 ## Installation
 
