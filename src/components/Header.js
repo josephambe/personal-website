@@ -7,8 +7,8 @@ const Header = (props) => (
     <header id="header" className="alt">
         <span className="logo"><img src={logo} alt="" /></span>
         {/*<span className="overlay"><img src={logoWink} alt=""/></span>*/}
-        <h1>AMBER JOSEPH</h1>
-        <p>SOFTWARE ENGINEER</p>
+      <h1>AMBER <span>JOSEPH</span></h1>
+      <p>SOFTWARE ENGINEER</p>
     </header>
 )
 

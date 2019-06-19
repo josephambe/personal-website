@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/profile1.png'
 
 class Index extends React.Component {
   constructor(props) {
@@ -47,12 +47,12 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>WHY SOFTWARE</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-                <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
-                </ul>
+                  <p> Originally, the plan was to study Fine Arts and Painting. Instead, one afternoon in 2016, I announced to a shocked family audience that I was headed to Victoria University of Wellington to pursue a degree in Software Engineering.</p>
+                  <p>I had realised coding is the most effective way to scale and share ideas with the world.</p>
+                  <p>And despite the perceived ‘I’m a coder’ image, I was thrilled to discover that computer science is not only a great creative outlet, but still let me work in teams, pitch ideas that excite me, and ultimately continue writing a lifelong plot to improve the world.</p>
+                {/*<ul className="actions">*/}
+                  {/*<li><Link to="/generic" className="button">Learn More</Link></li>*/}
+                {/*</ul>*/}
               </div>
               <span className="image"><img src={pic01} alt="" /></span>
             </div>
