@@ -28,6 +28,7 @@
 
 			h1 {
 				font-size: 3.25em;
+				display: block;
 			}
 
 			> * {
@@ -43,23 +44,21 @@
 				));
 				@include vendor('transition-delay', '0s');
 				//display: block;
-				//margin: 0 0 (_size(element-margin) * 0.75) 0;
-				margin: 0 0 0;
+				margin: auto; 				//margin: 0 0 (_size(element-margin) * 0.75) 0;
 				position: relative;
+				//max-width: 75%;
+
 			}
 
 			.swap-on-hover img {
-				margin: 0 auto;
+				top: -200px;
+				left: 500px;
+				display: block;
+				margin: auto;
 				max-width: 75%;
 				position: absolute;
 				overflow: hidden;
-
-
 			}
-
-			//&:hover {
-			//	opacity:0;
-			//}
 
 
 			.swap-on-hover .swap-on-hover__front-image {
@@ -72,7 +71,7 @@
 				//display: block;
 				//position: relative;
 				z-index: 9999;
-				transition: opacity .5s linear;
+				transition: opacity .1s linear;
 				cursor: pointer;
 
 				//img {
