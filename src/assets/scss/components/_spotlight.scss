@@ -17,7 +17,9 @@
 			> :last-child {
 				margin-bottom: 0;
 			}
-
+			p span {
+				display: block;
+			}
 			header {
 				&.major {
 					margin: 0 0 _size(element-margin) 0;
@@ -26,16 +28,14 @@
 		}
 
 		.image {
-			display: inline-block;
+			display: table-footer-group;
+			bottom: 0;
 			margin-left: 4em;
-			padding: 0.65em;
-			border-radius: 100%;
-			border: solid 1px;
+			padding-top: 3em;
+
 
 			img {
-				display: block;
-				border-radius: 100%;
-				width: 16em;
+				width: 25em;
 			}
 		}
 

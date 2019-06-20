@@ -10,44 +10,95 @@
 		@include padding(5em, 5em, (0, 0, -2em, 0));
 		text-align: center;
 
-		h1 {
-			margin: 0 0 (_size(element-margin) * 0.125) 0;
+
+		h1 span{
+			//margin: 0 0 (_size(element-margin) * 0.125) 0;
+			margin: 0 0 0;
+			display: block;
 		}
 
 		p {
 			font-size: 1.25em;
 			letter-spacing: _font(letter-spacing);
+			font-family: 'Museo Slab', fantasy;
+			color: #FFC417;
 		}
 
 		&.alt {
-			@include padding(6em, 5em, (1em, 0, 0, 0));
+			@include padding(12em, 5em, (8em, 0, 0, 0)); //(header height, )
 
 			h1 {
 				font-size: 3.25em;
+				display: block;
 			}
 
 			> * {
 				@include vendor('transition', 'opacity 3s ease');
-				@include vendor('transition-delay', '0.5s');
+				@include vendor('transition-delay', '0.25s');
 				opacity: 1;
 			}
 
-			.logo {
+			.swap-on-hover {
 				@include vendor('transition', (
-					'opacity 1.25s ease',
-					'transform 0.5s ease'
+								'opacity 0.25s ease',
+								'transform 0.25s ease'
 				));
 				@include vendor('transition-delay', '0s');
-				display: block;
-				margin: 0 0 (_size(element-margin) * 0.75) 0;
+				//display: block;
+				margin: auto; 				//margin: 0 0 (_size(element-margin) * 0.75) 0;
+				position: relative;
+				//max-width: 75%;
 
-				img {
-					display: block;
-					margin: 0 auto;
-					max-width: 75%;
-				}
 			}
+
+			.swap-on-hover img {
+				//top: -200px;
+				//left: 500px;
+				//top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+				//margin: auto;
+				max-width: 75%;
+				position: absolute;
+				overflow: hidden;
+			}
+
+
+			.swap-on-hover .swap-on-hover__front-image {
+				@include vendor('transition', (
+								'opacity 1.25s ease',
+								'transform 0.5s ease'
+				));
+				@include vendor('transition-delay', '0s');
+				//margin: 0 0 (_size(element-margin) * 0.75) 0;
+				//display: block;
+				//position: relative;
+				z-index: 9999;
+				transition: opacity .1s linear;
+				cursor: pointer;
+
+				//img {
+				//	margin: 0 auto;
+				//	max-width: 75%;
+				//	//position: absolute;
+				//	//overflow: hidden;
+				//	z-index: 9999;
+				//	transition: opacity .5s linear;
+				//	cursor: pointer;
+				//
+				//}
+			}
+
+			.swap-on-hover:hover > .swap-on-hover__front-image {
+				opacity: 0;
+			}
+
 		}
+
 
 		@include breakpoint(large) {
 			@include padding(4em, 4em, (0, 0, -2em, 0));
