@@ -36,49 +36,63 @@
 				opacity: 1;
 			}
 
-			.logo {
+			.swap-on-hover {
 				@include vendor('transition', (
-					'opacity 0.25s ease',
-					'transform 0.25s ease'
+								'opacity 0.25s ease',
+								'transform 0.25s ease'
 				));
 				@include vendor('transition-delay', '0s');
-				display: block;
+				//display: block;
 				//margin: 0 0 (_size(element-margin) * 0.75) 0;
 				margin: 0 0 0;
 				position: relative;
+			}
 
+			.swap-on-hover img {
+				margin: 0 auto;
+				max-width: 75%;
+				position: absolute;
+				overflow: hidden;
 
-				img {
-					margin: 0 auto;
-					max-width: 75%;
-					position: relative;
-				}
-				&:hover {
-					opacity:0;
-				}
 
 			}
 
-			.overlay {
+			//&:hover {
+			//	opacity:0;
+			//}
+
+
+			.swap-on-hover .swap-on-hover__front-image {
 				@include vendor('transition', (
 								'opacity 1.25s ease',
 								'transform 0.5s ease'
 				));
 				@include vendor('transition-delay', '0s');
-				margin: 0 0 (_size(element-margin) * 0.75) 0;
-				display: block;
-				position: relative;
+				//margin: 0 0 (_size(element-margin) * 0.75) 0;
+				//display: block;
+				//position: relative;
+				z-index: 9999;
+				transition: opacity .5s linear;
+				cursor: pointer;
 
-
-				img {
-					margin: 0 auto;
-					max-width: 75%;
-					position: absolute;
-
-				}
-
+				//img {
+				//	margin: 0 auto;
+				//	max-width: 75%;
+				//	//position: absolute;
+				//	//overflow: hidden;
+				//	z-index: 9999;
+				//	transition: opacity .5s linear;
+				//	cursor: pointer;
+				//
+				//}
 			}
+
+			.swap-on-hover:hover > .swap-on-hover__front-image {
+				opacity: 0;
+			}
+
 		}
+
 
 		@include breakpoint(large) {
 			@include padding(4em, 4em, (0, 0, -2em, 0));

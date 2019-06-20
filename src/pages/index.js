@@ -7,6 +7,8 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/profile1.png'
+import pic02 from '../assets/images/profile2.png'
+
 
 class Index extends React.Component {
   constructor(props) {
@@ -143,11 +145,20 @@ class Index extends React.Component {
           </section>
 
           <section id="cta" className="main special">
-            <header className="major">
-              <h2>Congue imperdiet</h2>
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>WHERE NEXT</h2>
+                </header>
+                <span className="image"><img src={pic02} alt="" /></span>
+              </div>
+              <header className="major">
+                <p>CAREER GOAL</p>
+              </header>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-            </header>
+            </div>
+
             <footer className="major">
               <ul className="actions">
                 <li><Link to="/generic" className="button special">Get Started</Link></li>
