@@ -10,11 +10,6 @@ const Nav = (props) => (
                     <a href="#">Why Software</a>
                 </Scroll>
             </li>
-            {/*<li>*/}
-                {/*<Scroll type="id" element="first">*/}
-                    {/*<a href="#">What Now</a>*/}
-                {/*</Scroll>*/}
-            {/*</li>*/}
             <li>
                 <Scroll type="id" element="second">
                     <a href="#">What Now</a>
