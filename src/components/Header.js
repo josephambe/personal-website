@@ -13,6 +13,10 @@ const Header = (props) => (
         {/*<span className="logo"><img src={logoWink} alt=""/></span>*/}
       <h1>AMBER <span>JOSEPH</span></h1>
       <p>SOFTWARE ENGINEER</p>
+      <ul className="burger">
+        <li><a href="#" className="icon fa-bars alt"><span className="label">Burger Menu</span></a></li>
+      </ul>
+
     </header>
 )
 

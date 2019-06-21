@@ -54,6 +54,28 @@
 					padding-right: 0 !important;
 				}
 			}
+
+		}
+
+		&.burger {
+			cursor: default;
+			position: absolute;
+			list-style: none;
+			padding-left: 0;
+			.fa-bars {
+				color: #FFC417;
+			}
+
+
+			li {
+				//display: block;
+				//padding: 0 0 0 0;
+
+
+				//&:last-child {
+				//	padding-right: 0 !important;
+				//}
+			}
 		}
 
 		&.actions {
