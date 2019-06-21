@@ -59,23 +59,18 @@
 
 		&.burger {
 			cursor: default;
-			position: absolute;
 			list-style: none;
-			padding-left: 0;
+			left: 0;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			max-width: 100%;
+			position: absolute;
+			overflow: hidden;
 			.fa-bars {
 				color: #FFC417;
 			}
 
-
-			li {
-				//display: block;
-				//padding: 0 0 0 0;
-
-
-				//&:last-child {
-				//	padding-right: 0 !important;
-				//}
-			}
 		}
 
 		&.actions {

@@ -9,13 +9,12 @@ const Header = (props) => (
         <img class="swap-on-hover__front-image" src={logo} alt="" />
         <img class="swap-on-hover__back-image" src={logoWink} alt="" />
       </figure>
-        {/*<span className="overlay"><img src={logo} alt="" /></span>*/}
-        {/*<span className="logo"><img src={logoWink} alt=""/></span>*/}
+      <ul className="burger">
+        <a href="#" className="icon fa-bars alt"><span className="label">Burger Menu</span></a>
+      </ul>
       <h1>AMBER <span>JOSEPH</span></h1>
       <p>SOFTWARE ENGINEER</p>
-      <ul className="burger">
-        <li><a href="#" className="icon fa-bars alt"><span className="label">Burger Menu</span></a></li>
-      </ul>
+
 
     </header>
 )
