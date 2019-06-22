@@ -3,7 +3,7 @@ import Popup from 'reactjs-popup'
 import Header from './Header'
 
 const Modal = (props) => (
-  <Popup       contentStyle={{ background: "rgba(0,255,255,0.98", borderRadius: "50%", height: "800px", width: "800px", textAlign: "center", text: "10px" }}
+  <Popup       contentStyle={{ background: "rgba(0,255,255,0.98", borderRadius: "50%", height: "800px", width: "800px", textAlign: "center", textIndent: "30px"}}
                trigger={<button className="button"> Open Modal </button>} modal>
     {close => (
       <div className="modal">
@@ -11,7 +11,7 @@ const Modal = (props) => (
           &times;
         </a>
         <div className="header"> WHY THE DUCK? </div>
-        <div className="content">
+        <div className="content" style={{padding: "60px"}}>
           {' '}
           Because it's cute
           <br />

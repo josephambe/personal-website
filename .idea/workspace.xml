@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aced2888-6d43-4619-b002-f08857e68953" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_modal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="139" selection-start-line="5" selection-start-column="139" selection-end-line="5" selection-end-column="139" />
+            <state relative-caret-position="58">
+              <caret line="5" column="151" selection-start-line="5" selection-start-column="151" selection-end-line="5" selection-end-column="151" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -45,16 +43,16 @@
         <entry file="file://$PROJECT_DIR$/src/assets/scss/libs/_skel.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
-              <caret line="544" lean-forward="true" selection-start-line="544" selection-end-line="544" />
+              <caret line="544" selection-start-line="544" selection-end-line="544" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_modal.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-104">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="-40">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -126,8 +124,8 @@
         <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/libs/_skel.scss" />
-        <option value="$PROJECT_DIR$/src/components/Modal.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_modal.scss" />
+        <option value="$PROJECT_DIR$/src/components/Modal.js" />
       </list>
     </option>
   </component>
@@ -270,7 +268,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39425000" />
+    <option name="totallyTimeSpent" value="40370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1387" height="762" extended-state="0" />
@@ -552,7 +550,7 @@
     <entry file="file://$PROJECT_DIR$/src/assets/scss/libs/_skel.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
-          <caret line="544" lean-forward="true" selection-start-line="544" selection-end-line="544" />
+          <caret line="544" selection-start-line="544" selection-end-line="544" />
         </state>
       </provider>
     </entry>
@@ -575,20 +573,20 @@
     <entry file="file://$PROJECT_DIR$/gatsby-ssr.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Modal.js">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_modal.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="139" selection-start-line="5" selection-start-column="139" selection-end-line="5" selection-end-column="139" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-40">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_modal.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="58">
+          <caret line="5" column="151" selection-start-line="5" selection-start-column="151" selection-end-line="5" selection-end-column="151" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
