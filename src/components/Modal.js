@@ -18,9 +18,9 @@ const Modal = (props) => (
                } modal>
     {close => (
       <div className="modal">
-        <a className="close" onClick={close}>
-          &times;
-        </a>
+        {/*<a className="close" onClick={close}>*/}
+          {/*&times;*/}
+        {/*</a>*/}
         <div className="header"> WHY THE DUCK? </div>
         <div className="content" style={{padding: "60px"}}>
           {' '}
