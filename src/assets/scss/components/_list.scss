@@ -54,6 +54,23 @@
 					padding-right: 0 !important;
 				}
 			}
+
+		}
+
+		&.burger {
+			cursor: default;
+			list-style: none;
+			left: 0;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			max-width: 100%;
+			position: absolute;
+			overflow: hidden;
+			.fa-bars {
+				color: #FFC417;
+			}
+
 		}
 
 		&.actions {

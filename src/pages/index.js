@@ -5,6 +5,7 @@ import Waypoint from 'react-waypoint'
 
 import Layout from '../components/layout'
 import Header from '../components/Header'
+import Modal from '../components/Modal'
 import Nav from '../components/Nav'
 import pic01 from '../assets/images/profile1.png'
 import pic02 from '../assets/images/profile2.png'

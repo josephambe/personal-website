@@ -60,6 +60,7 @@
 		@include breakpoint(small) {
 			min-width: 0;
 		}
+
 	}
 
 	@mixin color-button($p: null) {
