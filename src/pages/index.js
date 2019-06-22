@@ -34,7 +34,6 @@ class Index extends React.Component {
         <Helmet title="Gatsby Starter - Stellar" />
 
         <Header />
-        <Modal />
 
         <Waypoint
           onEnter={this._handleWaypointEnter}
