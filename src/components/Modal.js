@@ -18,39 +18,44 @@ const Modal = (props) => (
                } modal>
     {close => (
       <div className="modal">
-        {/*<a className="close" onClick={close}>*/}
-          {/*&times;*/}
-        {/*</a>*/}
-        <div className="header"> WHY THE DUCK? </div>
-        <div className="content" style={{padding: "60px"}}>
-          {' '}
-          Because it's cute
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sit
-          commodi beatae optio voluptatum sed eius cumque, delectus saepe repudiandae
-          explicabo nemo nam libero ad, doloribus, voluptas rem alias. Vitae?
+        <div className="header"><h2>WHY THE DUCK?</h2></div>
+        <div className="content" style={{paddingLeft: "60px", paddingRight: "60px", paddingTop: "10px"}}>
+          In Software Engineering, rubber duck debugging is a method used by programmers to identify issues in code. It references  a programmer explaining their code, line by line, to a rubber duck which sits on their desk (also saving their co-workers from a painful 30min).
+          <br /><br />
+          When I started university in Singapore, I brought with me a rubber duck; the National University of Singapore is Asia’s highest ranked University and the work certainly reflects it. That duck put up with a lot.
+          I now see the rubber duck as a symbol of my own abilities and academic growth over time.
+          <br /><br />
         </div>
         <div className="actions">
-          <Popup
-            trigger={<button className="button"> Trigger </button>}
-            position="top center"
-            closeOnDocumentClick
-          >
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-              magni omnis delectus nemo, maxime molestiae dolorem numquam
-              mollitia, voluptate ea, accusamus excepturi deleniti ratione
-              sapiente! Laudantium, aperiam doloribus. Odit, aut.
-            </span>
-          </Popup>
+          {/*<Popup*/}
+            {/*trigger={<button className="button"> Rubber Duck Project </button>}*/}
+            {/*position="top center"*/}
+            {/*closeOnDocumentClick*/}
+          {/*>*/}
+            {/*<span>*/}
+              {/*Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae*/}
+              {/*magni omnis delectus nemo, maxime molestiae dolorem numquam*/}
+              {/*mollitia, voluptate ea, accusamus excepturi deleniti ratione*/}
+              {/*sapiente! Laudantium, aperiam doloribus. Odit, aut.*/}
+            {/*</span>*/}
+          {/*</Popup>*/}
+          {/*<button*/}
+            {/*className="button"*/}
+            {/*onClick={() => {*/}
+              {/*// console.log('modal closed ')*/}
+              {/*close()*/}
+            {/*}}*/}
+          {/*>*/}
+            {/*My Exchange*/}
+          {/*</button>*/}
           <button
             className="button"
             onClick={() => {
               // console.log('modal closed ')
-              close()
+              // close()
             }}
           >
-            close modal
+            Rubber Duck Project
           </button>
         </div>
       </div>
