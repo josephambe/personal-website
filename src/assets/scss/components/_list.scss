@@ -73,8 +73,9 @@
 
 		}
 
+
 		&.actions {
-			cursor: default;
+			cursor: pointer;
 			list-style: none;
 			padding-left: 0;
 
@@ -82,6 +83,7 @@
 				display: inline-block;
 				padding: 0 (_size(element-margin) * 0.5) 0 0;
 				vertical-align: middle;
+
 
 				&:last-child {
 					padding-right: 0;
