@@ -10,7 +10,7 @@ const contentStyle = {
 
 const Menu = (props) => (
   <Popup
-    contentStyle={{ background: "rgb(251,252,253)", boxShadow: "none", marginTop: "-100px", height: "200px", width: "300px", marginLeft: "140px", paddingLeft: "10px", textAlign: "left", zIndex: "9999", border: "none" }}
+    contentStyle={{ background: "rgb(251,252,253)", boxShadow: "none", marginTop: "-100px", height: "200px", width: "300px", marginLeft: "140px", paddingLeft: "10px", textAlign: "left", zIndex: "9996", border: "none" }}
     overlayStyle={{ background: "rgba(251,252,253,0)", width: "80%"}}
     arrowStyle={{ boxShadow: "none" }}
     // closeOnDocumentClick={false}
