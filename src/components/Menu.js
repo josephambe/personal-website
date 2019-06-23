@@ -10,8 +10,9 @@ const contentStyle = {
 
 const Menu = (props) => (
   <Popup
-    contentStyle={{ background: "rgb(238,238,238)", height: "200px", width: "300px", marginLeft: "140px", paddingLeft: "10px", textAlign: "left", zIndex: "9999"}}
-    overlayStyle={{ }}
+    contentStyle={{ background: "rgb(251,252,253)", boxShadow: "none", marginTop: "-100px", height: "200px", width: "300px", marginLeft: "160px", paddingLeft: "10px", textAlign: "left", zIndex: "9999", border: "none" }}
+    overlayStyle={{ background: "rgb(251,252,253)", width: "30%" }}
+    arrowStyle={{ boxShadow: "none" }}
     // closeOnDocumentClick={false}
     trigger={
       <ul className="burger">
