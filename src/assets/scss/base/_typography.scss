@@ -5,6 +5,7 @@
 ///
 
 /* Type */
+$animate: all 0.2s ease-in-out;
 
 	body {
 		background-color: _palette(bg);
@@ -67,23 +68,25 @@
 	a.effect-underline:after {
 		content: '';
 		position: absolute;
-		left: 0;
+		//left: 0;
 		display: inline-block;
-		height: 1em;
+		height: 1.2em;
 		width: 100%;
 		border-bottom: 1.5px solid;
 		border-color: #FFC417;
 		margin-top: 10px;
 		opacity: 0;
-		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-		transition: opacity 0.35s, transform 0.35s;
-		-webkit-transform: scale(0,1);
-		transform: scale(0,1);
+		-webkit-transition: opacity 0.35s, -webkit-transform 1s; //transform = speed at which 'animation' happens
+		transition: opacity 0.35s, transform 1s;
+		-webkit-transform: scale(0,0.5);
+		transform: scale(0,0.5);
+
 	}
 
 	a.effect-underline:hover:after {
+		left: 0;
 		opacity: 1;
-		-webkit-transform: scale(1);
+		-webkit-transform: scale(1); //how big the line is scale wise
 		transform: scale(1);
 	}
 
