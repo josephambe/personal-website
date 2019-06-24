@@ -5,7 +5,9 @@ const HeaderHackathon = (props) => (
 
     <header id="header">
       <figure className="homo-logo">
-        <img className="home-logo" src={home_duck} alt=""/>
+        <a href="/#">
+          <img className="home-logo" src={home_duck} alt=""/>
+        </a>
       </figure>
       <h1>HACKATHONS</h1>
         <h2>(noun)   /ˈhakəθɒn/ </h2>
