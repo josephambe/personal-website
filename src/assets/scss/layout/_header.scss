@@ -34,6 +34,26 @@
 			color: #FFC417;
 		}
 
+		.home-logo {
+			//margin: 0 0 (_size(element-margin) * 0.75) 0;
+			width: 6%;
+			height: auto;
+			left: 0;
+			top: 0;
+			position: absolute;
+			padding-left: 20px;
+			padding-top: 20px;
+
+		}
+
+		.home-logo img{
+			left: 0;
+			top: 0;
+			position: absolute;
+			max-width: 30%;
+			padding-top: 100px;
+		}
+
 
 		&.alt {
 			@include padding(12em, 5em, (8em, 0, 0, 0)); //(header height, )
@@ -48,6 +68,7 @@
 				@include vendor('transition-delay', '0.25s');
 				opacity: 1;
 			}
+
 
 			.swap-on-hover {
 				@include vendor('transition', (
