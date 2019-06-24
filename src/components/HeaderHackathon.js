@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from '../assets/images/logo.png'
+import home_duck from '../assets/images/home_duck.png'
 
 const HeaderHackathon = (props) => (
 
     <header id="header">
       <figure className="homo-logo">
-        <img className="home-logo" src={logo} alt=""/>
+        <img className="home-logo" src={home_duck} alt=""/>
       </figure>
       <h1>HACKATHONS</h1>
         <h2>(noun)   /ˈhakəθɒn/ </h2>
