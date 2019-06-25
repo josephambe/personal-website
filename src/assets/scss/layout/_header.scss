@@ -17,11 +17,43 @@
 			display: block;
 		}
 
+		h2 {
+			font-size: 1.25em;
+			font-family: 'Museo Slab', fantasy;
+		}
+
+		h3 {
+			font-size: 1em;
+			font-weight: lighter;
+			padding-left: 100px;
+			padding-right: 100px;
+		}
+
 		p {
 			font-size: 1.25em;
 			letter-spacing: _font(letter-spacing);
 			font-family: 'Museo Slab', fantasy;
 			color: #FFC417;
+		}
+
+		.home-logo {
+			//margin: 0 0 (_size(element-margin) * 0.75) 0;
+			width: 6%;
+			height: auto;
+			left: 0;
+			top: 0;
+			position: absolute;
+			padding-left: 20px;
+			padding-top: 20px;
+
+		}
+
+		.home-logo img{
+			left: 0;
+			top: 0;
+			position: absolute;
+			max-width: 30%;
+			padding-top: 100px;
 		}
 
 
@@ -38,6 +70,7 @@
 				@include vendor('transition-delay', '0.25s');
 				opacity: 1;
 			}
+
 
 			.swap-on-hover {
 				@include vendor('transition', (
