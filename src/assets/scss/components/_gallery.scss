@@ -23,14 +23,33 @@
       grid-gap: 10px;
       background-color: #FFC417;
       padding: 10px;
+
+      div {
+        background-color: #424039;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+      > .item1 {
+        background-color: #efa8b0;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
     }
 
-    > .grid-container > .div {
-      background-color: #FFC417;
-      text-align: center;
-      padding: 20px 0;
-      font-size: 30px;
-    }
+    //> .grid-container > .div {
+    //  background-color: #424039;
+    //  text-align: center;
+    //  padding: 20px 0;
+    //  font-size: 30px;
+    //}
+
+      //> .grid-container > .div > .item1 {
+      //  background-color: #424039;
+      //  grid-column-start: 1;
+      //  grid-column-end: 3;
+      //}
 
 
     > .image.gallery:first-child {
