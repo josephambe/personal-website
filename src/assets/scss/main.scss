@@ -32,15 +32,16 @@
 	));
 
 	@mixin color($p) {
-		@include color-typography($p);
+      @include color-typography($p);
 		@include color-box($p);
 		@include color-button($p);
 		@include color-form($p);
-		@include color-icon($p);
+      @include color-icon($p);
 		@include color-list($p);
 		@include color-section($p);
 		@include color-table($p);
 		@include color-spotlight($p);
+
 	}
 
 // Base.
@@ -49,18 +50,23 @@
 	@import 'base/typography';
 
 // Component.
-
 	@import 'components/box';
 	@import 'components/button';
 	@import 'components/form';
+	@import 'components/gallery';
 	@import 'components/icon';
 	@import 'components/image';
 	@import 'components/list';
+	@import 'components/menu';
+	@import 'components/modal';
 	@import 'components/section';
 	@import 'components/table';
 	@import 'components/features';
 	@import 'components/statistics';
 	@import 'components/spotlight';
+
+
+
 
 // Layout.
 
