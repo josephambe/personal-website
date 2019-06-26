@@ -10,6 +10,13 @@ import pic04 from '../assets/images/pic04.jpg'
 import HeaderHackathon from '../components/HeaderHackathon'
 
 
+const articleStyle = {
+  background: "rgba(255,255,255,0)",
+  // width: "80%",
+  padding: "30px",
+  border: "none"
+};
+
 class Spotted extends React.Component {
   constructor(props){
     super(props);
@@ -35,10 +42,9 @@ class Spotted extends React.Component {
         i.customOverlay = (
           <div style={captionStyle}>
             <div>{i.caption}</div>
-            {i.hasOwnProperty('tags') &&
-            this.setCustomTags(i)}
           </div>);
-        return i;
+      {i.hasOwnProperty('tags') && this.setCustomTags(i)}
+      return i;
       });
 
 
@@ -59,10 +65,36 @@ class Spotted extends React.Component {
                 border: "1px solid #ddd",
                 overflow: "auto"}}>
                 <Gallery
+                  // images={this.state.images}
                   images={images}
-                  enableImageSelection={false}/>
+                  enableImageSelection={false}
+                  showImageCount={false}
+                  margin={1}
+                  enableLightbox={true}
+                  backdropClosesModal={true}
+                  overflow={scroll}
+                  customControls={[
+                    <div id="main" style={{height: "5000px", zIndex: "999", background: "#ffffff"}}>
+                      <section className="hackathonArticle">
+                        <h2>Magna feugiat lorem</h2>
+                        <span className="image main"><img src={pic04} alt="" /></span>
+
+                        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
+                        <p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
+                        <h2>Tempus veroeros</h2>
+                        <h2>Magna feugiat lorem</h2>
+                        <h2>Magna feugiat lorem</h2>
+                        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
+                        <p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
+                        <h2>Tempus veroeros</h2>
+                        <h2>Magna feugiat lorem</h2>
+                      </section>
+                    </div>
+                  ]}
+                  // onClickThumbnail={myClickFn}
+                />
               </div>
-              <span className="image main"><img src={pic04} alt="" /></span>
+              {/*<span className="image main"><img src={pic04} alt="" /></span>*/}
               <h2>Magna feugiat lorem</h2>
               <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
               <p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
@@ -73,6 +105,13 @@ class Spotted extends React.Component {
       </Layout>
     )
   }
+}
+
+function myClickFn() {
+  if (this.props.item.isSelected)
+    return {}
+      // something stylish...
+
 }
 
 Spotted.propTypes = {
@@ -100,10 +139,8 @@ const captionStyle = {
   right: "10px",
   width: "90%",
   color: "white",
-  // padding: "20px",
   fontSize: "90%",
   borderRadius: "25px",
-  // paddingBottom: "35px"
 };
 
 
@@ -114,7 +151,7 @@ Spotted.defaultProps = {
       thumbnail: "https://c7.staticflickr.com/9/8106/28941228886_86d1450016_n.jpg",
       thumbnailWidth: 271,
       thumbnailHeight: 320,
-      // tags: [{value: "Nature", title: "Nature | Flowers"}],
+      // thumbnailCaption: "8H",
       caption: "SINGAPORE"
     },
     {
@@ -122,8 +159,6 @@ Spotted.defaultProps = {
       thumbnail: "https://c3.staticflickr.com/9/8583/28354353794_9f2d08d8c0_n.jpg",
       thumbnailWidth: 320,
       thumbnailHeight: 190,
-      // tags: [{value: "Architecture", title: "Architecture | Outdoors"},
-      //   {value: "Industrial", title: "Industrial"}],
       caption: "MALAYSIA"
     },
     {
@@ -131,9 +166,6 @@ Spotted.defaultProps = {
       thumbnail: "https://c7.staticflickr.com/9/8569/28941134686_d57273d933_n.jpg",
       thumbnailWidth: 320,
       thumbnailHeight: 148,
-      // tags: [{value: "People", title: "People"},
-      //   {value: "Architecture", title: "Architecture | Outdoors"},
-      //   {value: "Industrial", title: "Industrial"}],
       caption: "THAILAND"
     },
     {
@@ -155,8 +187,6 @@ Spotted.defaultProps = {
       thumbnail: "https://c1.staticflickr.com/9/8785/28687743710_3580fcb5f0_n.jpg",
       thumbnailWidth: 320,
       thumbnailHeight: 113,
-      // tags: [{value: "People", title: "People"},
-      //   {value: "Industrial", title: "Industrial"}],
       caption: "JAPAN"
     },
     {
@@ -171,7 +201,6 @@ Spotted.defaultProps = {
       thumbnail: "https://c8.staticflickr.com/9/8104/28973555735_ae7c208970_n.jpg",
       thumbnailWidth: 320,
       thumbnailHeight: 213,
-      // tags: [{value: "Nature", title: "Nature | Flowers"}],
       caption: "WORKSHOP"
     }
   ])
