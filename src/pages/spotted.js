@@ -6,44 +6,14 @@ import Helmet from 'react-helmet'
 ;
 
 import Layout from '../components/layout'
-// import pic04 from '../assets/images/pic04.jpg'
+import pic04 from '../assets/images/pic04.jpg'
 import HeaderHackathon from '../components/HeaderHackathon'
 
 
 class Spotted extends React.Component {
-//   constructor(props){
-//     super(props);
-//     this.state = {
-//       images: this.props.images
-//     };
-//   }
-//
-//   setCustomTags (i) {
-//     return (
-//       i.tags.map((t) => {
-//         return (<div
-//           key={t.value}
-//           style={customTagStyle}>
-//           {t.title}
-//         </div>);
-//       })
-//     );
-//   }
 
 
   render() {
-    // var images = this.state.images.map((i) => {
-    //     i.customOverlay = (
-    //       <div style={titleStyle}>
-    //         <div>{i.title}</div>
-    //       </div>);
-    //     // i.lightBoxProps = (
-    //     //   <div style={captionStyle}>
-    //     //     <div>{i.caption}</div>
-    //     //   </div>);
-    //   // {i.hasOwnProperty('tags') && this.setCustomTags(i)}
-    //   return i;
-    //   });
 
     return (
     <Layout>
@@ -52,10 +22,59 @@ class Spotted extends React.Component {
       <div id="gallery">
         <section id="content" className="gallery">
           <div className="grid-container">
-            <div className="item1">1</div>
-            <div className="item2">2</div>
-            <div className="item3">3</div>
+            <div className="grid-item">
+              <div className="content">
+                <div className="content-inside">
+                  <h2>2:1</h2>
+                  <p>Centered</p>
+                </div>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <div className="content-inside">
+                  <h2>1:1</h2>
+                  <p>Lower Left</p>
+                </div>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <div className="content-inside">
+                  <h2>1:1</h2>
+                  <p>Lower Left</p>
+                </div>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <div className="content-inside">
+                  <h2>1:1</h2>
+                  <p>Lower Left</p>
+                </div>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <div className="content-inside">
+                  <h2>1:1</h2>
+                  <p>Lower Right</p>
+                </div>
+              </div>
+            </div>
           </div>
+          {/*<div className="grid-container">*/}
+
+              {/*<div className="item1">2</div>*/}
+              {/*<div className="item1">3</div>*/}
+              {/*<div className="item1"><img src={pic04} alt=""/></div>*/}
+
+            {/*<div className="row">*/}
+              {/*<div className="item1">4</div>*/}
+              {/*<div className="item1">5</div>*/}
+              {/*<div className="item1">6</div>*/}
+            {/*</div>*/}
+          {/*</div>*/}
         </section>
       </div>
 
