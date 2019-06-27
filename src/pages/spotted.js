@@ -13,7 +13,7 @@ import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 
 
-import HeaderHackathon from '../components/HeaderHackathon'
+import HeaderSpotted from '../components/HeaderSpotted'
 
 
 class Spotted extends React.Component {
@@ -24,7 +24,7 @@ class Spotted extends React.Component {
     return (
     <Layout>
       <Helmet title="Generic Page Title"/>
-      <HeaderHackathon/>
+      <HeaderSpotted/>
       <div id="gallery">
         <section id="content" className="gallery">
           <div className="grid-container">
