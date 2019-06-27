@@ -6,7 +6,13 @@ import Helmet from 'react-helmet'
 ;
 
 import Layout from '../components/layout'
+import pic01 from '../assets/images/pic01.jpg'
+import pic02 from '../assets/images/pic02.jpg'
+import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
+import pic05 from '../assets/images/pic05.jpg'
+
+
 import HeaderHackathon from '../components/HeaderHackathon'
 
 
@@ -24,69 +30,32 @@ class Spotted extends React.Component {
           <div className="grid-container">
             <div className="grid-item">
               <div className="content">
-                <div className="content-inside">
-                  <h2>2:1</h2>
-                  <p>Centered</p>
-                </div>
+                <img src={pic01} alt="" />
               </div>
             </div>
             <div className="grid-item">
               <div className="content">
-                <div className="content-inside">
-                  <h2>1:1</h2>
-                  <p>Lower Left</p>
-                </div>
+                <img src={pic02} alt="" />
               </div>
             </div>
             <div className="grid-item">
               <div className="content">
-                <div className="content-inside">
-                  <h2>1:1</h2>
-                  <p>Lower Left</p>
-                </div>
+                <img src={pic04} alt="" />
               </div>
             </div>
             <div className="grid-item">
               <div className="content">
-                <div className="content-inside">
-                  <h2>1:1</h2>
-                  <p>Lower Left</p>
-                </div>
+                <img src={pic03} alt="" />
               </div>
             </div>
             <div className="grid-item">
               <div className="content">
-                <div className="content-inside">
-                  <h2>1:1</h2>
-                  <p>Lower Right</p>
-                </div>
+                <img src={pic05} alt="" />
               </div>
             </div>
           </div>
-          {/*<div className="grid-container">*/}
-
-              {/*<div className="item1">2</div>*/}
-              {/*<div className="item1">3</div>*/}
-              {/*<div className="item1"><img src={pic04} alt=""/></div>*/}
-
-            {/*<div className="row">*/}
-              {/*<div className="item1">4</div>*/}
-              {/*<div className="item1">5</div>*/}
-              {/*<div className="item1">6</div>*/}
-            {/*</div>*/}
-          {/*</div>*/}
         </section>
       </div>
-
-      {/*<div id="main">*/}
-        {/*<section id="content" className="main">*/}
-          {/*<div className="grid-container">*/}
-            {/*<div className="item1">1</div>*/}
-            {/*<div className="item2">2</div>*/}
-            {/*<div className="item3">3</div>*/}
-          {/*</div>*/}
-        {/*</section>*/}
-      {/*</div>*/}
   </Layout>
   )
   }
