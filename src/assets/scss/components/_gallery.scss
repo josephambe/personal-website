@@ -25,12 +25,12 @@
       grid-row-gap: 10px;
       background-color: #ffffff;
 
-      div {
-        background-color: #c79cc8;
-        text-align: center;
-        padding: 0;
-        font-size: 30px;
-      }
+      //div {
+      //  background-color: #c79cc8;
+      //  text-align: center;
+      //  padding: 0;
+      //  font-size: 30px;
+      //}
 
       > .grid-item {
         background-color: #8cc9f0;
@@ -111,15 +111,30 @@
               filter: none;
               -webkit-filter: grayscale(0%);
             }
-
           }
+
+          div {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .3s ease;
+            background-color: red;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+
 
         }
 
-
         > .content-inside {
           padding: 2rem;
-
 
           img {
             max-height:100%;
@@ -127,7 +142,53 @@
           }
         }
       }
+
+      > .overlay {
+        div {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .3s ease;
+          background-color: red;
+        }
+      }
+
+      > .content:hover .overlay{
+        opacity: 1;
+        //background-color: aqua;
+        //width: 100px;
+        //height: 100px;
+        //display: inline;
+      }
+
+
+
+      /* The icon inside the overlay is positioned in the middle vertically and horizontally */
+      > .icon {
+        color: white;
+        font-size: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      /* When you move the mouse over the icon, change color */
+      > .fa-user:hover {
+        color: #eee;
+      }
+
+
+
     }
+
 
     > .image.gallery:first-child {
       margin: -5em 0 5em -5em;

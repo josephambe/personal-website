@@ -14,6 +14,8 @@ import pic05 from '../assets/images/pic05.jpg'
 
 
 import HeaderSpotted from '../components/HeaderSpotted'
+import logo from '../assets/images/logo.png'
+import logoWink from '../assets/images/logo_wink.png'
 
 
 class Spotted extends React.Component {
@@ -36,6 +38,12 @@ class Spotted extends React.Component {
             <div className="grid-item">
               <div className="content">
                 <img src={pic02} alt="" />
+                <div>
+                  <a href="#" className="icon" title="User Profile">
+                    <i className="fa fa-user"></i>
+                  </a>
+                </div>
+                {/*<div className="content_overlay" />*/}
               </div>
             </div>
             <div className="grid-item">
