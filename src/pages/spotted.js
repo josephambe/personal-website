@@ -38,11 +38,9 @@ class Spotted extends React.Component {
             <div className="grid-item">
               <div className="content">
                 <img src={pic02} alt="" />
-                <div>
-                  <a href="#" className="icon" title="User Profile">
-                    <i className="fa fa-user"></i>
-                  </a>
-                </div>
+                <button><a href="#" className="icon" title="User Profile">
+                  <i className="fa fa-user"></i>
+                </a></button>
                 {/*<div className="content_overlay" />*/}
               </div>
             </div>

@@ -98,37 +98,87 @@
           text-align: center;
           padding: 0;
 
+
+          filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+          filter: gray; /* IE6-9 */
+          -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+
           img {
             width: 100%; /* or any custom size */
             height: 100%;
             object-fit: cover;
             overflow: hidden;
-            filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-            filter: gray; /* IE6-9 */
-            -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+            //filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+            //filter: gray; /* IE6-9 */
+            //-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 
-            &:hover {
-              filter: none;
-              -webkit-filter: grayscale(0%);
-            }
+            //&:hover {
+            //  filter: none;
+            //  -webkit-filter: grayscale(0%);
+            //}
           }
 
-          div {
+          //div {
+          //  position: absolute;
+          //  top: 0;
+          //  bottom: 0;
+          //  left: 0;
+          //  right: 0;
+          //  height: 100%;
+          //  width: 100%;
+          //  opacity: 0;
+          //  //filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+          //  //filter: gray; /* IE6-9 */
+          //  //-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+
+          button {
+            @include vendor('appearance', 'none');
+            @include vendor('transition', (
+                    'background-color #{_duration(transition)} ease-in-out',
+                    'color #{_duration(transition)} ease-in-out'
+            ));
             position: absolute;
-            top: 0;
+            top: 50%;
             bottom: 0;
             left: 0;
             right: 0;
             height: 100%;
             width: 100%;
+            border-radius: _size(border-radius);
+            border: 0;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: _font(weight);
+            height: 2.75em;
+            line-height: 2.75em;
+            min-width: 9.25em;
+            padding: 0 5.5em;
+            text-align: center;
+            text-decoration: none;
+            white-space: nowrap;
+            z-index: 9999;
             opacity: 0;
-            transition: .3s ease;
-            background-color: red;
+
 
             &:hover {
               opacity: 1;
+
             }
           }
+            //&:hover {
+            //  filter: none;
+            //  -webkit-filter: grayscale(0%);
+            //  opacity: 1;
+            //
+            //}
+
+          //}
+          &:hover {
+            filter: none;
+            -webkit-filter: grayscale(0%);
+            opacity: 1;
+          }
+
 
 
         }
@@ -141,29 +191,6 @@
             max-width:100%;
           }
         }
-      }
-
-      > .overlay {
-        div {
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          height: 100%;
-          width: 100%;
-          opacity: 0;
-          transition: .3s ease;
-          background-color: red;
-        }
-      }
-
-      > .content:hover .overlay{
-        opacity: 1;
-        //background-color: aqua;
-        //width: 100px;
-        //height: 100px;
-        //display: inline;
       }
 
 
