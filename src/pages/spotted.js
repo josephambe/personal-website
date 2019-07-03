@@ -33,7 +33,7 @@ class Spotted extends React.Component {
             <div className="grid-item">
               <div className="content">
                 <img src={pic01} alt="" />
-                <overlay><button><a href="#" className="icon" title="User Profile">PIC01</a></button></overlay>
+                <overlay><button><a href="./blog1" className="icon" title="User Profile">PIC01</a></button></overlay>
               </div>
             </div>
             <div className="grid-item">
@@ -67,4 +67,5 @@ class Spotted extends React.Component {
   )
   }
 }
+export default Spotted
 
