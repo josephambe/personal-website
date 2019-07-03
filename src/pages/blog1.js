@@ -20,11 +20,11 @@ class Hackathon extends React.Component {
 
         <header id="header">
           <img className="blog" src={pic04} alt=""/>
-          <figure className="homo-logo">
-            <a href="/#">
-              <img className="home-logo" src={home_duck} alt=""/>
-            </a>
-          </figure>
+          <div className="home-logo">
+            <ul className="icons" style={{paddingRight: "50px"}}>
+              <a href="/spotted" className="icon fa-long-arrow-left">SPOTTED</a>
+            </ul>
+          </div>
         </header>
 
         <div className="major">
