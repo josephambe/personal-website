@@ -1,6 +1,6 @@
 
 .menu {
-  font-size: 12px;
+  font-size: inherit;
   z-index: 9999;
 
 }
@@ -16,15 +16,15 @@
 .menu > .content {
   width: 70%;
   padding: 10px 5px;
-  //width: 200px;
-  //height: 200px;
+  text-align: center;
+
 
 }
 .menu > .actions {
   width: 100%;
   padding: 10px 5px;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .menu > .close {
@@ -37,10 +37,9 @@
   top: -10px;
   font-size: 24px;
   background: #ffffff;
-  //border-radius: 50%;
-  //border: 0px solid #cfcece;
+
 }
 
-.menu:hover {
-  color: #ff0000;
-}
+//.menu:hover {
+//  color: #424039;
+//}

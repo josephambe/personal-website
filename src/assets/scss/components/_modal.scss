@@ -1,12 +1,11 @@
 
 .modal {
-  font-size: 12px;
+  font-size: inherit;
   z-index: 9999;
 
 }
 .modal > .header {
-  width: 100%;
-  border-bottom: 1px solid gray;
+  //width: 100%;
   font-size: 18px;
   text-align: center;
   padding: 5px;
@@ -14,12 +13,9 @@
 
 }
 .modal > .content {
-  width: 70%;
-  padding: 10px 5px;
-  //width: 200px;
-  //height: 200px;
-
+  text-align: center;
 }
+
 .modal > .actions {
   width: 100%;
   padding: 10px 5px;
