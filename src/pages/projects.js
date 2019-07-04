@@ -39,9 +39,10 @@ class Projects extends React.Component {
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
                   < br/>< br/>
                   <div className="meter yellow"><span style={{width: "50%"}}></span></div>
-                  <div style={{width: "90%"}}>
-                  <p>Effortless</p><p style={{float: "right"}}>Very Difficult</p>
-                  </div>
+                  <div style={{marginBottom: "2%",width: "95%"}}><p>Effortless</p><p style={{float: "right"}}>Very Difficult</p></div>
+                  <h3>BIGGEST TAKEAWAYS:</h3>< br/>
+                  <takeaway>Biggest takeaway is blah blah blah</takeaway>
+                  <takeaway> takeaway 2 is blah blah blah</takeaway>
 
                 </a>
               </div>
