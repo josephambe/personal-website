@@ -34,12 +34,15 @@ class Projects extends React.Component {
               <div className="content">
                 <a href="./blog1">
                   <h1>PROJECT 1</h1>
-                  <h3>STATUS: </h3> <p>Ongoing</p>
+                  <h3>STATUS: </h3> <p> Ongoing</p>
                   < br/>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
-                  <div className="meter yellow">
-                    <span style={{width: "50%"}}></span>
+                  < br/>< br/>
+                  <div className="meter yellow"><span style={{width: "50%"}}></span></div>
+                  <div style={{width: "90%"}}>
+                  <p>Effortless</p><p style={{float: "right"}}>Very Difficult</p>
                   </div>
+
                 </a>
               </div>
             </div>
