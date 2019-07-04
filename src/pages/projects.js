@@ -32,8 +32,15 @@ class Projects extends React.Component {
           <div className="project-container">
             <div className="project-item">
               <div className="content">
-                <img src={pic01} alt="" />
-                <overlay><button><a href="./blog1" className="icon" title="User Profile">PIC01</a></button></overlay>
+                <a href="./blog1">
+                  <h1>PROJECT 1</h1>
+                  <h3>STATUS: </h3> <p>Ongoing</p>
+                  < br/>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
+                  <div className="meter yellow">
+                    <span style={{width: "50%"}}></span>
+                  </div>
+                </a>
               </div>
             </div>
             <div className="project-item">
@@ -67,5 +74,8 @@ class Projects extends React.Component {
   )
   }
 }
+
 export default Projects
+
+
 

@@ -36,7 +36,7 @@
 		@include color-box($p);
 		@include color-button($p);
 		@include color-form($p);
-      @include color-icon($p);
+      	@include color-icon($p);
 		@include color-list($p);
 		@include color-section($p);
 		@include color-table($p);
@@ -58,12 +58,15 @@
 	@import 'components/image';
 	@import 'components/list';
 	@import 'components/menu';
+	@import 'components/meter';
 	@import 'components/modal';
+	@import 'components/projectList';
 	@import 'components/section';
 	@import 'components/table';
 	@import 'components/features';
 	@import 'components/statistics';
 	@import 'components/spotlight';
+
 
 
 
