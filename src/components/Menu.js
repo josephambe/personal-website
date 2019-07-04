@@ -23,7 +23,7 @@ const Menu = (props) => (
     {close => (
       <div className="menu">
         <ul className="actions">
-          <li><a href="#" className="effect-underline">PROJECTS</a></li>< br/>
+          <li><a href="/projects" className="effect-underline">PROJECTS</a></li>< br/>
           <li><a href="/hackathon" className="effect-underline">HACKATHONS</a></li>< br/>
           <li><a href="/spotted" className="effect-underline">SPOTTED</a></li>< br/>
           <li><a href="#" className="effect-underline">CONTACT</a></li>< br/>
