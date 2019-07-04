@@ -1,13 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Waypoint from 'react-waypoint'
 
 import Layout from '../components/layout'
-import NavHackathon from '../components/NavHackathon'
-import HeaderHackathon from '../components/HeaderHackathon'
+import HeaderContact from '../components/HeaderContact'
 import pic04 from '../assets/images/pic04.jpg'
-import home_duck from '../assets/images/home_duck.png'
-import HeaderProjects from '../components/HeaderProjects'
+import pic03 from '../assets/images/pic03.jpg'
 
 class Contact extends React.Component {
 
@@ -21,15 +18,27 @@ class Contact extends React.Component {
 
         <HeaderContact/>
 
-
-        <div className="major">
-
-          <div className="article">
-            <h1>jamber919@gmail.com</h1>
-            <li><a href="https://github.com/josephambe" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
-            {/*<li><a href="mailto:jamber919@gmail.com?subject=Let's catch up!" className="icon fa-envelope alt"><span className="label">Mail</span></a></li>*/}
-            <li><a href="https://www.linkedin.com/in/amber-joseph/" className="icon fa-linkedin alt"><span className="label">LinkedIn</span></a></li>
-          </div>
+        <div id="projectList">
+          <section id="content" className="projectList">
+            <div className="grid-container">
+               <div className="row">
+                <div className="project-item">
+                 <div className="content">
+                    <ul className="icons">
+                      <li><a href="https://github.com/josephambe" className="icon fa-github alt"><span className="label">GitHub</span></a></li>< br/>
+                      <li><a href="mailto:jamber919@gmail.com?subject=Let's catch up!" className="icon fa-envelope alt"><span className="label">Mail</span></a></li>< br/>
+                      <li><a href="https://www.linkedin.com/in/amber-joseph/" className="icon fa-linkedin alt"><span className="label">LinkedIn</span></a></li>
+                    </ul>
+                 </div>
+                </div>
+                <div className="project-item">
+                  <div className="content">
+                    <img src={pic03} alt="" />
+                  </div>
+                </div>
+               </div>
+            </div>
+          </section>
         </div>
       </Layout>
     )
