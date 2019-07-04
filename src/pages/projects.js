@@ -29,48 +29,54 @@ class Projects extends React.Component {
       <HeaderProjects/>
       <div id="projectList">
         <section id="content" className="projectList">
-          <div className="project-container">
-            <div className="project-item">
-              <div className="content">
-                <a href="./blog1">
-                  <h1>PROJECT 1</h1>
-                  <h3>STATUS: </h3> <p> Ongoing</p>
-                  < br/>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
-                  < br/>< br/>
-                  <div className="meter yellow"><span style={{width: "50%"}}></span></div>
-                  <div style={{marginBottom: "2%",width: "95%"}}><p>Effortless</p><p style={{float: "right"}}>Very Difficult</p></div>
-                  <h3>BIGGEST TAKEAWAYS:</h3>< br/>
-                  <takeaway>Biggest takeaway is blah blah blah</takeaway>
-                  <takeaway> takeaway 2 is blah blah blah</takeaway>
+          <div className="grid-container">
 
-                </a>
+            <div className="row">
+              <div className="project-item">
+                <div className="content">
+                  <a href="./project1">
+                    <h1>PROJECT 1</h1>
+                    <h3>STATUS:</h3><p>Ongoing</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
+                    <div className="meter yellow"><span style={{width: "50%"}}></span></div>
+                    <label><left>Effortless</left><right>Very Difficult</right></label>
+                    < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
+                    <takeaway>Biggest takeaway is blah blah blah</takeaway>
+                    <takeaway> takeaway 2 is blah blah blah</takeaway>
+                  </a>
+                </div>
+              </div>
+              <div className="project-item">
+                <div className="content">
+                  <a href="./project1">
+                  <img src={pic02} alt="" />
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="project-item">
-              <div className="content">
-                <img src={pic02} alt="" />
-                <overlay><button><a href="#" className="icon" title="User Profile">SINGAPORE</a></button></overlay>
+
+
+            <div className="row">
+              <div className="project-item">
+                <div className="content">
+                  <img src={pic04} alt="" />
+                </div>
+              </div>
+              <div className="project-item">
+                <div className="content">
+                  <img src={pic03} alt="" />
+                </div>
               </div>
             </div>
-            <div className="project-item">
-              <div className="content">
-                <img src={pic04} alt="" />
-                <overlay><a href="/hackathon" className="icon" title="User Profile"><button>SKYDIVING</button></a></overlay>
+
+            <div className="row">
+              <div className="project-item">
+                <div className="content">
+                  <img src={pic05} alt="" />
+                </div>
               </div>
             </div>
-            <div className="project-item">
-              <div className="content">
-                <img src={pic03} alt="" />
-                <overlay><button><a href="#" className="icon" title="User Profile">SINGAPORE</a></button></overlay>
-              </div>
-            </div>
-            <div className="project-item">
-              <div className="content">
-                <img src={pic05} alt="" />
-                <overlay><button><a href="#" className="icon" title="User Profile">SINGAPORE</a></button></overlay>
-              </div>
-            </div>
+
           </div>
         </section>
       </div>
