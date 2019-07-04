@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aced2888-6d43-4619-b002-f08857e68953" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_contactGrid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_contactGrid.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/contact.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
@@ -58,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_contactGrid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="71" column="20" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="20" />
+            <state relative-caret-position="457">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -330,12 +329,12 @@
       <workItem from="1560819668380" duration="29982000" />
       <workItem from="1561331066105" duration="43935000" />
       <workItem from="1561668831636" duration="9775000" />
-      <workItem from="1562190902035" duration="22419000" />
+      <workItem from="1562190902035" duration="22660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130543000" />
+    <option name="totallyTimeSpent" value="130784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1387" height="762" extended-state="0" />
@@ -755,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_contactGrid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="71" column="20" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -769,6 +761,13 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_contactGrid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
