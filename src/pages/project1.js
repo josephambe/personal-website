@@ -8,7 +8,7 @@ import HeaderHackathon from '../components/HeaderHackathon'
 import pic04 from '../assets/images/pic04.jpg'
 import home_duck from '../assets/images/home_duck.png'
 
-class Hackathon extends React.Component {
+class Project1 extends React.Component {
 
   render() {
 
@@ -52,4 +52,4 @@ class Hackathon extends React.Component {
   }
 }
 
-export default Hackathon
+export default Project1

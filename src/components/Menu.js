@@ -26,7 +26,7 @@ const Menu = (props) => (
           <li><a href="/projects" className="effect-underline">PROJECTS</a></li>< br/>
           <li><a href="/hackathon" className="effect-underline">HACKATHONS</a></li>< br/>
           <li><a href="/spotted" className="effect-underline">SPOTTED</a></li>< br/>
-          <li><a href="#" className="effect-underline">CONTACT</a></li>< br/>
+          <li><a href="/contact" className="effect-underline">CONTACT</a></li>< br/>
           {/*<li onClick={close}>CONTACT</li>*/}
         </ul>
       </div>
