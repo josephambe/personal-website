@@ -7,12 +7,12 @@ const Footer = (props) => (
         <section>
             {/*<h2>AMBER JOSEPH</h2>*/}
             <ul className="icons">
-              <li><span className="label">HOME</span></li>
-              <li><span className="label">ABOUT</span></li>
-              <li><span className="label">PROJECTS</span></li>
-              <li><span className="label">HACKATHONS</span></li>
-              <li><span className="label">SPOTTED</span></li>
-              <li><span className="label">CONTACT</span></li>
+              <li><a href="/#" className="effect-underline"><span className="label">HOME</span></a></li>
+              <li><a href="/#" className="effect-underline"><span className="label">ABOUT</span></a></li>
+              <li><a href="/projects" className="effect-underline"><span className="label">PROJECTS</span></a></li>
+              <li><a href="/hackathon" className="effect-underline"><span className="label">HACKATHONS</span></a></li>
+              <li><a href="/spotted" className="effect-underline"><span className="label">SPOTTED</span></a></li>
+              <li><a href="/contact" className="effect-underline"><span className="label">CONTACT</span></a></li>
             </ul>
             <ul className="icons">
                 <li><a href="https://twitter.com/amberkjoseph?lang=en" className="icon fa-twitter alt"><span className="label">Twitter</span></a></li>
