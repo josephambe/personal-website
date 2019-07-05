@@ -37,6 +37,7 @@ class Hackathon extends React.Component {
         </Waypoint>
         <NavHackathon sticky={this.state.stickyNav} />
 
+
         <section id="hackathon1" className="main">
             <div className="major">
               <header className="major" style={{paddingTop: "100px"}}>

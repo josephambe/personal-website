@@ -3,7 +3,7 @@ import home_duck from '../assets/images/home_duck.png'
 
 const HeaderProjects = (props) => (
 
-    <header id="header">
+  <header id="header" className="alt" style={{paddingTop: "15%", paddingBottom: "5%"}}>
       <figure className="homo-logo">
         <a href="/#">
           <img className="home-logo" src={home_duck} alt=""/>
