@@ -14,6 +14,7 @@ import artBoard from '../assets/images/spotted/art_board/painting06.jpg'
 import painting from '../assets/images/spotted/painting/leaves.jpg'
 import webstock from '../assets/images/spotted/webstock/webstock02.jpg'
 import tea_tech from '../assets/images/spotted/tea_tech/group.jpg'
+import powerco from '../assets/images/spotted/powerco/interns.jpeg'
 
 
 
@@ -83,6 +84,12 @@ class Spotted extends React.Component {
               <div className="content">
                 <img src={tea_tech} alt="" />
                 <overlay><a href="./blog_tea_tech" className="icon" title="User Profile"><button>Tea & Tech</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={powerco} alt="" />
+                <overlay><a href="./blog_powerco" className="icon" title="User Profile"><button>PowerCo</button></a></overlay>
               </div>
             </div>
           </div>
