@@ -8,7 +8,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import gcsb from '../assets/images/spotted/gcsb/gcsb.jpg'
 import pmsa from '../assets/images/spotted/pmsa/pic01.jpg'
-import pic03 from '../assets/images/pic03.jpg'
+import mural from '../assets/images/spotted/mural/mural03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 
@@ -44,13 +44,13 @@ class Spotted extends React.Component {
             </div>
             <div className="grid-item">
               <div className="content">
-                <img src={pic04} alt="" />
-                <overlay><a href="/hackathon" className="icon" title="User Profile"><button>SKYDIVING</button></a></overlay>
+                <img src={mural} alt="" />
+                <overlay><a href="./blog_mural" className="icon" title="User Profile"><button>Outdoor Mural</button></a></overlay>
               </div>
             </div>
             <div className="grid-item">
               <div className="content">
-                <img src={pic03} alt="" />
+                <img src={pic04} alt="" />
                 <overlay><button><a href="#" className="icon" title="User Profile">SINGAPORE</a></button></overlay>
               </div>
             </div>
