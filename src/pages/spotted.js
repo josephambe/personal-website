@@ -10,6 +10,8 @@ import gcsb from '../assets/images/spotted/gcsb/gcsb.jpg'
 import pmsa from '../assets/images/spotted/pmsa/pic01.jpg'
 import mural from '../assets/images/spotted/mural/mural03.jpg'
 import sculpture from '../assets/images/spotted/sculpture/fruitMaking02.jpg'
+import artBoard from '../assets/images/spotted/art_board/painting06.jpg'
+
 import pic05 from '../assets/images/pic05.jpg'
 
 
@@ -52,6 +54,12 @@ class Spotted extends React.Component {
               <div className="content">
                 <img src={sculpture} alt="" />
                 <overlay><a href="./blog_sculpture" className="icon" title="User Profile"><button>Sculpture</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={artBoard} alt="" />
+                <overlay><a href="./blog_art_board" className="icon" title="User Profile"><button>Art Board</button></a></overlay>
               </div>
             </div>
             <div className="grid-item">
