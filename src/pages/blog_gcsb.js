@@ -2,8 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import pic01 from '../assets/images/gcsb_group.jpg'
-import bgPic from '../assets/images/gcsb_base.jpg'
+import pic01 from '../assets/images/spotted/gcsb/gcsb_group.jpg'
+import bgPic from '../assets/images/spotted/gcsb/gcsb_base.jpg'
 
 class Hackathon extends React.Component {
 
@@ -46,6 +46,8 @@ class Hackathon extends React.Component {
               It was a fantastic experience and a great chance to meet an amazingly talented group of other girls, several of who I knew from my time at High School. </p>
 
             <p>You never know where an application will take you and I encourage every student (female or not) to apply for as much as you can. There's no saying where it could lead you.</p>
+            <p>Find out more about GCSB Scholarship <a href="https://www.gcsb.govt.nz/working-for-us/gcsb-women-in-stem-scholarship/" style={{color: "#FFC417"}}>here.</a></p>
+            <p>See the media release <a href="https://www.stuff.co.nz/national/politics/99079630/external-spy-agency-on-a-mission-for-gender-diversity-equal-pay" style={{color: "#FFC417"}}>here.</a></p>
           </div>
         </div>
       </Layout>
