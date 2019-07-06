@@ -38,59 +38,65 @@ class Hackathon extends React.Component {
           <div className="article">
             <h1>Sculpture</h1>
             <h2>Genetic enhancement of food.</h2>
-            <p>This was a mural I did in my own time in my last year of High School (2016).
-              During this time, I was also Head Girl of Palmerston North Girl's High School, and working on my final Level 3 Art Board which I recieved a NCEA Excellence Scholarship for.
-              I was inspired by works I had seen in Australia and at the time of starting, struggled with painting with realism so wanted another way to paint people which was fun and appealing.
+            <p>For my Level 3 NCEA Art Board I decided to pursue an interest in the genetic enhancement of food. What was our obsession with perfect food?
+            What are the consequences of having food from all countries, from all seasons, available in our supermarkets all year round?
+            When does food stop becoming food and start becoming the result of lab work? Is that line already crossed? Does that line even exist?
+              What chemicals are in our foods and how is that affecting our health?
             </p>
-          {/*<header className="major" style={{paddingTop: "100px"}}>*/}
-            {/*<h2>< br />Virtual Realities</h2>*/}
-          {/*</header>*/}
-          <section id="content" className="main">
-            <span className="image main"><img src={pic01} alt="" /></span>
-          </section>
-            <p>To paint this mural I first went out during a lunchtime and photographed a bunch of students until I found a photo which I really liked.
-              I enjoyed the laughter and joy caught in this photo, so went with that.
-              I flirted with the idea of adding a fourth person to represent the four house colours, but in the end decided that I just liked this photo too much.
+
+            <p>To explore this idea I turned to sculpture. This was not really part of my course (which was Painting by name), but my teachers were very supportive of me trying new things outside of the realm/medium of paint.
+              My first idea with sculpture was to try and visually show the amount of fabrication and stitching together of materials to make our seemingly 'natural' fruits.
+              To try and show the human influence that goes into food from sprays, chemical enhancements, and other unnatural methods. What may seem natural has not always had a natural growing process.
+            </p>
+            <section id="content" className="main">
+              <span className="image main"><img src={pic01} alt="" /></span>
+            </section>
+
+            <p>I photographed these new fruits in natural environments to highlight their un-naturalness. I made them by peeling oranges, lemons, and even watermelons (not very successful), and then hand stitching the skins back together around polystyrene balls.
+              Finally, I finished off my 'frankin-fruit' with nails, pins, staples, and string.
             </p>
             <section id="content" className="main">
               <span className="image main"><img src={pic02} alt="" /></span>
             </section>
 
-            <p>Physically painting this was very time consuming and absorbed almost all my weekends and evening. Each triangle had to be taped on all sides to ensure straight lines and then painted with several layers of paint to be thick enough.
-              This meant that the mural came together in a rather disjointed way. I used a heat gun to dry the paint quicker and also semi gas myself in the small shed I was working in.
+            <p>The next stage of my research into genetically perfect foods was exploring societies obsessive disgust with mould.
+              Mould can be smelly, gross, and poisonous. It is generally associated with waste and dirty/unclean environments.
+              But I remember reading an article about a McDonalds burger left in car for 6 years with no signs of mould or decay.
+              6 years! The idea that this was less repulsive than a mouldy piece of naturally grown fruit baffled and intrigued me.
+              Perhaps I could leave my 'frakin-fruit' which are meant to be a symbol of genetically enhanced food and let them go mouldy.
+              Perhaps that would confront my viewers and really force them to ask themselves why it is that they are so uncomfortable with the idea of mould, but will eat food they know contains chemicals that could be dangerous for them without question.
             </p>
-
             <section id="content" className="main">
               <span className="image main"><img src={pic03} alt="" /></span>
             </section>
 
-            <p>I'm very proud of the final result, and still aim to paint more large scale works like this one. I was working on this mural with one of my fellow art students, Kate, who mentioned once we had finished the entire mural "Oh, THAT'S what it's meant to look like."
-              Turns out she had no idea of the vision I had in my head...I'm forever grateful for her trust in my crazy ideas! Also huge thanks to the Art Department for trusting me with such a large work, all of the materials I used, and basically letting me live in the shed out the back.
+            <p>Inspired and motivated by my frankin-fruit, I decided that I wanted to continue my exploration of sculpture to show how crazily obsessed we have become with perfect food.
+              Hundreds of tons of food that is still fine to eat is discarded because of simple blemishes or deformities that are completely natural. And in a bizzare turn of events, food that is more natural (organic) and has these deformities has become more expensive.
+              To try and show the excessive nature of this trend, I made a giant cherry out of a swiss ball. The idea was for it to be too big, too perfect, too round, too shiny. Basically to emphasise its unnaturalness.
             </p>
-
             <section id="content" className="main">
               <span className="image main"><img src={pic04} alt="" /></span>
             </section>
 
-            <p>I'm very proud of the final result, and still aim to paint more large scale works like this one. I was working on this mural with one of my fellow art students, Kate, who mentioned once we had finished the entire mural "Oh, THAT'S what it's meant to look like."
-              Turns out she had no idea of the vision I had in my head...I'm forever grateful for her trust in my crazy ideas! Also huge thanks to the Art Department for trusting me with such a large work, all of the materials I used, and basically letting me live in the shed out the back.
+            <p>I photographed this cherry by bundling it into a friends car during our Art period and sneaking out of school to a nearby park to take some quick photos.
+              Unfortunately it was also semi raining at this time so we really had to be quick.
+              I'm happy with the final images but upon reflection would have liked to try photograph it in a kitchen setting as well.
+              I made the stalk our of an old hose pipe.
             </p>
-
             <section id="content" className="main">
               <span className="image main"><img src={pic05} alt="" /></span>
             </section>
 
-            <p>I'm very proud of the final result, and still aim to paint more large scale works like this one. I was working on this mural with one of my fellow art students, Kate, who mentioned once we had finished the entire mural "Oh, THAT'S what it's meant to look like."
-              Turns out she had no idea of the vision I had in my head...I'm forever grateful for her trust in my crazy ideas! Also huge thanks to the Art Department for trusting me with such a large work, all of the materials I used, and basically letting me live in the shed out the back.
+            <p>I also used the photographs of the cherry I had taken in some painting and pencil collages, as I was very inspired by similar artists at the time who used multi-media.
             </p>
-
             <section id="content" className="main">
               <span className="image main"><img src={pic06} alt="" /></span>
             </section>
 
-            <p>WAYNE THIEBAUD</p>
-
-
+            <p>The final play I had with sculpture while exploring this topic was inspired by Wayne Thiebaud's paintings. I enjoyed painting in his style so much that I decided to try and visually create his work in 3D.
+            The idea was to have rows and rows of cakes in a room, much like his paintings, however I ran out of time and materials.
+            I experimented with several ways of making cakes (that wasn't actual cake) but in the end found that plastering putty and a palette knife worked best.
+            </p>
             <section id="content" className="main">
               <span className="image main"><img src={pic07} alt="" /></span>
             </section>
