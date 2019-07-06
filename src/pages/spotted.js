@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 ;
 
 import Layout from '../components/layout'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/gcsb.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
@@ -33,13 +33,13 @@ class Spotted extends React.Component {
             <div className="grid-item">
               <div className="content">
                 <img src={pic01} alt="" />
-                <overlay><button><a href="./blog1" className="icon" title="User Profile">PIC01</a></button></overlay>
+                <overlay><a href="./blog1" className="icon" title="User Profile"><button>PIC01</button></a></overlay>
               </div>
             </div>
             <div className="grid-item">
               <div className="content">
                 <img src={pic02} alt="" />
-                <overlay><button><a href="#" className="icon" title="User Profile">SINGAPORE</a></button></overlay>
+                <overlay><a href="./blog1" className="icon" title="User Profile"><button>SINGAPORE</button></a></overlay>
               </div>
             </div>
             <div className="grid-item">

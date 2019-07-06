@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aced2888-6d43-4619-b002-f08857e68953" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/_wrapper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/_wrapper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderContact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderHackathon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderHackathon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderProjects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderSpotted.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderSpotted.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/hackathon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hackathon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/spotted.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/spotted.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
-              <caret line="95" column="13" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="95" selection-end-column="13" />
+              <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/spotted.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
+            <state>
               <caret selection-end-line="4" selection-end-column="25" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -51,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/HeaderHackathon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="60">
               <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -72,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/hackathon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            <state relative-caret-position="990">
+              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -85,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_gallery.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -93,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="125" column="9" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="125" selection-end-column="9" />
+            <state relative-caret-position="1875">
+              <caret line="125" column="9" selection-start-line="115" selection-start-column="8" selection-end-line="125" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -102,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="375">
               <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -165,7 +166,6 @@
         <option value="$PROJECT_DIR$/node_modules/react-grid-gallery/lib/Image.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/libs/_skel.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_modal.scss" />
-        <option value="$PROJECT_DIR$/src/pages/spotted.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_image.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_spotlight.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/base/_typography.scss" />
@@ -194,11 +194,12 @@
         <option value="$PROJECT_DIR$/src/components/HeaderHackathon.js" />
         <option value="$PROJECT_DIR$/src/components/HeaderProjects.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_gallery.scss" />
+        <option value="$PROJECT_DIR$/src/pages/spotted.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
+    <option name="x" value="23" />
     <option name="y" value="23" />
     <option name="width" value="1387" />
     <option name="height" value="762" />
@@ -331,14 +332,15 @@
       <workItem from="1561331066105" duration="43935000" />
       <workItem from="1561668831636" duration="9775000" />
       <workItem from="1562190902035" duration="27881000" />
+      <workItem from="1562368851122" duration="366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136005000" />
+    <option name="totallyTimeSpent" value="136371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1387" height="762" extended-state="0" />
+    <frame x="23" y="23" width="1387" height="762" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
@@ -450,16 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/spotted.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_icon.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
@@ -477,13 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Meter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Meter.js" />
     <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_features.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-352" />
@@ -679,43 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="125" column="9" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="125" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/hackathon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HeaderSpotted.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -730,9 +679,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="95" column="13" lean-forward="true" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HeaderHackathon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="60">
           <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -747,17 +713,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_gallery.scss">
+    <entry file="file://$PROJECT_DIR$/src/pages/hackathon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="990">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_header.scss">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/components/_gallery.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="95" column="13" lean-forward="true" selection-start-line="91" selection-start-column="12" selection-end-line="95" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/layout/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="125" column="9" selection-start-line="115" selection-start-column="8" selection-end-line="125" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/spotted.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
