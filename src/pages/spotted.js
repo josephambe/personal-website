@@ -33,7 +33,7 @@ class Spotted extends React.Component {
             <div className="grid-item">
               <div className="content">
                 <img src={pic01} alt="" />
-                <overlay><a href="./blog1" className="icon" title="User Profile"><button>PIC01</button></a></overlay>
+                <overlay><a href="./blog1" className="icon" title="User Profile"><button>GCSB Scholarship</button></a></overlay>
               </div>
             </div>
             <div className="grid-item">
