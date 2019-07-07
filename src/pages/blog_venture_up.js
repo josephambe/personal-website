@@ -7,7 +7,7 @@ import pic01 from '../assets/images/spotted/venture_up/interview.png'
 import pic03 from '../assets/images/spotted/venture_up/lean_canvas.jpg'
 import pic04 from '../assets/images/spotted/venture_up/pitch.jpg'
 
-import bgPic from '../assets/images/spotted/venture_up/start.jpg'
+import bgPic from '../assets/images/spotted/venture_up/start.png'
 
 class Hackathon extends React.Component {
 
