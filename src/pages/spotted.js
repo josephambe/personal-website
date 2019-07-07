@@ -17,6 +17,7 @@ import tea_tech from '../assets/images/spotted/tea_tech/group.jpg'
 import powerco from '../assets/images/spotted/powerco/interns.jpeg'
 import kiwiRuby from '../assets/images/spotted/kiwi_ruby/room.jpg'
 import marathon from '../assets/images/spotted/marathon/2019.jpg'
+import outward_bound from '../assets/images/spotted/outward_bound/group_sail.jpg'
 
 
 
@@ -105,6 +106,12 @@ class Spotted extends React.Component {
               <div className="content">
                 <img src={marathon} alt="" />
                 <overlay><a href="./blog_marathon" className="icon" title="User Profile"><button>Half Marathon</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={outward_bound} alt="" />
+                <overlay><a href="./blog_outward_bound" className="icon" title="User Profile"><button>Outward Bound</button></a></overlay>
               </div>
             </div>
           </div>
