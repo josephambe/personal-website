@@ -22,7 +22,8 @@ import spirit_nz from '../assets/images/spotted/spirit_nz/nina.jpg'
 import venture_up from '../assets/images/spotted/venture_up/pitch.jpg'
 import sustainability_summit from '../assets/images/spotted/sustainability_summit/conference.jpg'
 import game_threats from '../assets/images/spotted/game_threats/screen.jpeg'
-
+import rasnz_2018 from '../assets/images/spotted/rasnz_2018/group.jpg'
+import rasnz_2019 from '../assets/images/spotted/rasnz_2019/exec.jpg'
 
 
 import pic05 from '../assets/images/pic05.jpg'
@@ -139,6 +140,18 @@ class Spotted extends React.Component {
               <div className="content">
                 <img src={game_threats} alt="" />
                 <overlay><a href="./blog_game_threats" className="icon" title="User Profile"><button>Game of Threats</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={rasnz_2018} alt="" />
+                <overlay><a href="./blog_rasnz_2018" className="icon" title="User Profile"><button>RASNZ 2018</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={rasnz_2019} alt="" />
+                <overlay><a href="./blog_rasnz_2019" className="icon" title="User Profile"><button>RASNZ 2019</button></a></overlay>
               </div>
             </div>
           </div>
