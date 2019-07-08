@@ -28,55 +28,45 @@ class Hackathon extends React.Component {
         <div className="major">
           <div className="article">
             <h1>Summit on the Sustainable Development Goals</h1>
-            <h2>Volunteering Role</h2>
+            <h2>2018, Volunteering Role</h2>
             <p>
-              I remember being super nervous about signing up for Spirit of NZ.
-              Not only was it very expensive (using almost all my savings), but the idea of spending 10 days living on board a full on pirate ship with a bunch of complete strangers?!
-              Terrifying. Obviously, this actually turned out to be a fantastic trip. And yes, I did come back wanting to sail around the world for a year.
-              It's inspiring okay?
+              Before I volunteered for the Summit on the Sustainable Development Goals, I really had no idea what the SDG's were.
+              And because I was a last minute call-in volunteer I was informed literally the night before that I had to memorise them all because we would be running workshops on them for the participants.
+              So in that sense, I learnt about them pretty damn quickly.
             </p>
 
             <section id="content" className="main">
               <span className="image main"><img src={pic01} alt="" /></span>
             </section>
             <p>
-              I loved being out in the sea every day. We started in Auckland and sailed down to Coromandle, doing the trip back in basically one final day where all of us teenagers had to sail the boat entirely ourselves.
-              Every morning we had to get up super early before the sun rose and jump off the side for a couple of laps around the boat.
-              It was super cold putting on wet togs every morning but those sunrises were something else entirely.
-              Every forth night, we had to do a night watch where we stayed up in groups of two for two-three hours at some point during the night to make sure all was well with the ship.
-              To pass the time during these often long hours, there was a doodle book which quickly became an ongoing inside joke with various anonymous entries being talked about the next day.
+              What I learnt was that this SDG's (Sustainable Development Goals) were 17 goals signed off by all governments in the United Nations in 2015 to accomplish by 2030.
+              The thing is, these goals are huge. I'm talking, save the planet huge. They need to be there. They are important to have.
+              But they are going to take way more than just governmental efforts to actually be achieved.
+              The require the combined input of business, public, government, education, and academia.
+              Just to give you an idea of the level of these goals, some of them include "No Poverty", "Affordable and Clean Energy", and "Zero Hunger."
+              These aren't just boxes to be ticked. These are seriously ambitious. And for good reason.
             </p>
+
+            <p>
+              The purpose of the summit was to inspire people to take action on how they can contribute to achieving the SDG's and also to provide the participants an opportunity to brainstorm ideas amoungst themselves on how businesses they lead, teams they manage, or even their individual actions, can be adjusted or improved to work towards achieving these global objectives.
+              As a volunteer, my role was to facilitate these discussions and help engage participants in activities to get them thinking about innovative solutions and strategies.
+              Many of the participants were naturally passionate about the SDG's (hence them being there) so some of these conversations got pretty heated.
+              However, it was all in the name of a good cause so eventually everyone was able to agree on a final idea.
+            </p>
+
             <section id="content" className="main">
               <span className="image main"><img src={pic02} alt="" /></span>
             </section>
-            <p>
-              As well as our night watch duties, every day we were literally scrubbing the deck. Washing down boats and equipment, cleaning the kitchen, tidying our living quarters.
-              We were kept to a very tight schedule which involved a lot of cleaning and organisation.
-              On rare moments of downtime, we were sometimes (depending on where we were) allowed to get out the yardie.
-              The yardie is this giant swing which goes out over the water from a super high mast and allows for maximum swing.
-              There was a super strict rule that you absolutely had to let go of the yardie; broken only once by Alex who decided the drop was a tad higher than he anticipated and came swinging back to the side of the boat to the screams and yells of the rest of the crew.
-              He let go on his next swing out. Frankly I think we were scarier than the drop.
-            </p>
-
-
 
             <p>
-              A few times, we actually went to shore. The first time I believe was roughly 6 days in and we all had jelly legs from being on a boat so long.
-              We did a hike up a large hill, then had a camp fire on land. We paddled back to the ship that night through the most stunning glowing water.
-              The night was super still and you could see the ripples of your paddles in the phosphorescence in the water.
-            </p>
-
-
-
-            <p>
-              Easily the greatest shower of my life was on our last day aboard. Up until then, we were all not allowed to have showers which for the most part, was actually fine given the amount of swimming we were doing.
-              Because there were so many of us, our showers were strictly timed to two minutes each. I came into that shower with shampoo in one hand, body wash in the other, and came out feeling like an entirely new person.
-              It was glorious.
+              To make things a bit more interesting, a competition was held to decided on the best idea through a 3min pitch and audience vote.
+              The winner (a website tracking business sustainability) received funding in order to help them actually implement their concept.
             </p>
 
 
             <p>
-              If you want to see more, my friend Nina made an absolute stella of a video about it. See below.
+              Overall, I was really glad that I was given the opportunity to attend this Summit. I learnt a lot from it, and was inspired to think more about how I can make changes in my life and perhaps the career I choose to help move the world towards a time where all of the SDG's are reached.
+              Because that would be a pretty darn good world to live in.
             </p>
 
           </div>

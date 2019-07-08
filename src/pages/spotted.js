@@ -133,7 +133,7 @@ class Spotted extends React.Component {
             <div className="grid-item">
               <div className="content">
                 <img src={sustainability_summit} alt="" />
-                <overlay><a href="./blog_sustain_summit" className="icon" title="User Profile"><button>Sustainability Summit</button></a></overlay>
+                <overlay><a href="./blog_sustain_summit" className="icon" title="User Profile"><button>SDG Summit</button></a></overlay>
               </div>
             </div>
           </div>
