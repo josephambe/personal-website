@@ -21,8 +21,7 @@ import outward_bound from '../assets/images/spotted/outward_bound/group_sail.jpg
 import spirit_nz from '../assets/images/spotted/spirit_nz/nina.jpg'
 import venture_up from '../assets/images/spotted/venture_up/pitch.jpg'
 import sustainability_summit from '../assets/images/spotted/sustainability_summit/conference.jpg'
-
-
+import game_threats from '../assets/images/spotted/game_threats/screen.jpeg'
 
 
 
@@ -134,6 +133,12 @@ class Spotted extends React.Component {
               <div className="content">
                 <img src={sustainability_summit} alt="" />
                 <overlay><a href="./blog_sustain_summit" className="icon" title="User Profile"><button>SDG Summit</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={game_threats} alt="" />
+                <overlay><a href="./blog_game_threats" className="icon" title="User Profile"><button>Game of Threats</button></a></overlay>
               </div>
             </div>
           </div>
