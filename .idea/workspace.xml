@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aced2888-6d43-4619-b002-f08857e68953" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/blog_singapore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog_rasnz_2019.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog_rasnz_2019.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/spotted.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/spotted.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,17 +20,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/spotted.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/blog_rasnz_2019.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/blog_singapore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="60" column="234" selection-start-line="60" selection-start-column="234" selection-end-line="60" selection-end-column="234" />
+            <state relative-caret-position="372">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -163,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Gallery.js" />
         <option value="$PROJECT_DIR$/node_modules/react-grid-gallery/lib/Image.js" />
         <option value="$PROJECT_DIR$/src/assets/scss/libs/_skel.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/components/_modal.scss" />
@@ -212,8 +212,9 @@
         <option value="$PROJECT_DIR$/src/pages/blog_sustain_summit.js" />
         <option value="$PROJECT_DIR$/src/pages/blog_game_threats.js" />
         <option value="$PROJECT_DIR$/src/pages/blog_rasnz_2018.js" />
-        <option value="$PROJECT_DIR$/src/pages/spotted.js" />
         <option value="$PROJECT_DIR$/src/pages/blog_rasnz_2019.js" />
+        <option value="$PROJECT_DIR$/src/pages/spotted.js" />
+        <option value="$PROJECT_DIR$/src/pages/blog_singapore.js" />
       </list>
     </option>
   </component>
@@ -353,12 +354,12 @@
       <workItem from="1562190902035" duration="27881000" />
       <workItem from="1562368851122" duration="23025000" />
       <workItem from="1562540762862" duration="6180000" />
-      <workItem from="1562645434628" duration="564000" />
+      <workItem from="1562645434628" duration="1258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165774000" />
+    <option name="totallyTimeSpent" value="166468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="23" width="1387" height="762" extended-state="0" />
@@ -408,16 +409,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -738,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/spotted.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/blog_outward_bound.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -821,8 +805,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/blog_rasnz_2019.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="60" column="234" selection-start-line="60" selection-start-column="234" selection-end-line="60" selection-end-column="234" />
+        <state relative-caret-position="102">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/spotted.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/blog_singapore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
