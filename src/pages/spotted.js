@@ -25,6 +25,7 @@ import game_threats from '../assets/images/spotted/game_threats/screen.jpeg'
 import rasnz_2018 from '../assets/images/spotted/rasnz_2018/group.jpg'
 import rasnz_2019 from '../assets/images/spotted/rasnz_2019/exec.jpg'
 import singapore from '../assets/images/spotted/singapore/nus.jpg'
+import malaysia from '../assets/images/spotted/malaysia/map.jpg'
 
 
 
@@ -160,6 +161,12 @@ class Spotted extends React.Component {
               <div className="content">
                 <img src={singapore} alt="" />
                 <overlay><a href="./blog_singapore" className="icon" title="User Profile"><button>SINGAPORE</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={malaysia} alt="" />
+                <overlay><a href="./blog_malaysia" className="icon" title="User Profile"><button>MALAYSIA</button></a></overlay>
               </div>
             </div>
           </div>

@@ -80,7 +80,7 @@ class Hackathon extends React.Component {
               Being in Singapore taught me a lot. It taught me about my own strengths, weaknesses, values, beliefs, and what I can really achieve if I put my mind to it.
               University at Wellington now seems more fun than tasking, and my mentality has gone from being overwhelmed by information to 'bring it on, I'm excited to learn something new.'
               I will forever miss the friends I made in Singapore and the wide variety of food. $4 was really treating yourself to a special meal at the student canteen.
-              Thank you Singapore for the most incredible ten months. I'll be back to visit soon. 
+              Thank you Singapore for the most incredible ten months. I'll be back to visit soon.
             </p>
 
             <section id="content" className="main">
