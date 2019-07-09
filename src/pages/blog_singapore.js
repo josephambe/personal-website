@@ -35,18 +35,18 @@ class Hackathon extends React.Component {
           <div className="article">
             <h1>Singapore</h1>
             <h2>Studying at Asia's Highest Ranked University</h2>
-            <p>This art board was an exploration of ideas surrounding the genetic enhancement of food and societies attitude towards its growing integration into our everyday lives.
-              I painted almost all my works in oils, developing my painting style and ability as I went on. This was my first year using oil paint.
-              This first image is of my final piece on my Art Board, and the one which I was most proud of.
-              I painted this in 2016 at the age of 18 to show a user's fall into the hands of the pharmaceutical industry who designs food filled with chemicals that could be potentially dangerous for us, yet we still continue to buy them.
+            <p>
+              Funded by the Prime Minister's Scholarship to Asia, I studied for one academic year at the National University of Singapore, Asia's highest ranked university.
+              This was by far my hardest academic challenge to date; it wasn't so much of a Singapore life-culture shock, but more of their work-life culture that really surpised me.
             </p>
             <section id="content" className="main">
               <span className="image main"><img src={pic01} alt="" /></span>
             </section>
-            <p>This art board was an exploration of ideas surrounding the genetic enhancement of food and societies attitude towards its growing integration into our everyday lives.
-              I painted almost all my works in oils, developing my painting style and ability as I went on. This was my first year using oil paint.
-              This first image is of my final piece on my Art Board, and the one which I was most proud of.
-              I painted this in 2016 at the age of 18 to show a user's fall into the hands of the pharmaceutical industry who designs food filled with chemicals that could be potentially dangerous for us, yet we still continue to buy them.
+            <p>
+              What I thought was hard work in New Zealand had nothing on the way these students were studying. Till the earliest hours of the morning, running on prata and coffee, student life in Singapore is competitive, stressful, and difficult.
+              However, I learnt more than I ever have and have come back to my studies in New Zealand far more confident in my own technical abilities.
+              I've started taking on personal projects which I didn't think were in my scope of capabilities and have learnt that, given enough time, I can pretty much learn anything.
+              Even Linear Algebra II (whose textbook cover is now framed on my wall as tribute to the hardest paper I've ever done).
             </p>
 
             <section id="content" className="main">
@@ -56,27 +56,37 @@ class Hackathon extends React.Component {
               <span className="image main"><img src={pic06} alt="" /></span>
             </section>
 
-            <p>Part of the reasoning behind these pieces was to begin to integrate food and machinery/chemicals, but also to develop my painting abilities.
-              This is why a lot of my subject matter is shiny or glossy; it makes for great painting practice and effects.
+            <p>
+              Outside of the student culture, the country of Singapore itself is amazing. It is an incredible place to explore, full to the brim of difference cultures, architectures, food, traditions, and events.
+              There is always something on, some new club opening, or some tech talk to go to.
+              The weather is humid to the point where I sometimes feel like I'm breathing my water than air but I never once wore long pants the entire time I was there which, from a winter Wellington perspective now, seems hard to imagine.
             </p>
             <section id="content" className="main">
               <span className="image main"><img src={pic02} alt="" /></span>
             </section>
 
-            <p>I submitted my art board working and explanations for NCEA Scholarship Painting and was fortunate enough to be one of two people in my class to be awarded the scholarship.
+            <p>
+              The biggest advantage of living in Singapore as an exchange student however, was the opportunities it gave you to travel.
+              It's not often that I had really thought about just how isolated New Zealand really is. We are pretty much a dead-end in terms of travel destinations.
+              In contrast, South East Asia seems to have no end.
+              Being in Singapore gave you a great chance to meet people of all different cultures and learn about a wide variety of countries.
+              From there you could decided where you would like to travel; and if you're lucky, grab a $25 flight to Malaysia for the weekend.
             </p>
             <section id="content" className="main">
               <span className="image main"><img src={pic04} alt="" /></span>
             </section>
 
-            <p>I really enjoyed the process of creating my Level 3 Art Board and can safely say that it ended up being one of my favourite NCEA subjects.
-              I definitely improved over the year and will hopefully continue to develop my skills and enjoy painting in my own time for the remainder of my life.
+            <p>
+              Being in Singapore taught me a lot. It taught me about my own strengths, weaknesses, values, beliefs, and what I can really achieve if I put my mind to it.
+              University at Wellington now seems more fun than tasking, and my mentality has gone from being overwhelmed by information to 'bring it on, I'm excited to learn something new.'
+              I will forever miss the friends I made in Singapore and the wide variety of food. $4 was really treating yourself to a special meal at the student canteen.
+              Thank you Singapore for the most incredible ten months. I'll be back to visit soon. 
             </p>
 
             <section id="content" className="main">
               <span className="image main"><img src={pic03} alt="" /></span>
             </section>
-            
+
             <section id="content" className="main">
               <span className="image main"><img src={pic05} alt="" /></span>
             </section>

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aced2888-6d43-4619-b002-f08857e68953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/blog_singapore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/spotted.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/spotted.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog_singapore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog_singapore.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/blog_singapore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="322">
+              <caret line="82" column="98" selection-start-line="82" selection-start-column="98" selection-end-line="82" selection-end-column="98" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -354,12 +352,12 @@
       <workItem from="1562190902035" duration="27881000" />
       <workItem from="1562368851122" duration="23025000" />
       <workItem from="1562540762862" duration="6180000" />
-      <workItem from="1562645434628" duration="1258000" />
+      <workItem from="1562645434628" duration="2112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166468000" />
+    <option name="totallyTimeSpent" value="167322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="23" width="1387" height="762" extended-state="0" />
@@ -822,8 +820,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/blog_singapore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="322">
+          <caret line="82" column="98" selection-start-line="82" selection-start-column="98" selection-end-line="82" selection-end-column="98" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
