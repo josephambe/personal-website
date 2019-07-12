@@ -30,6 +30,8 @@ import bali from '../assets/images/spotted/bali/rice_fields.jpeg'
 import cambodia from '../assets/images/spotted/cambodia/window.jpg'
 import duke_of_ed from '../assets/images/spotted/duke_of_ed/ice.jpg'
 import head_girl from '../assets/images/spotted/head_girl/shake_hand.jpg'
+import japan from '../assets/images/spotted/japan/temple.jpg'
+
 
 
 
@@ -194,6 +196,12 @@ class Spotted extends React.Component {
               <div className="content">
                 <img src={head_girl} alt="" />
                 <overlay><a href="./blog_head_girl" className="icon" title="User Profile"><button>Head Girl</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={japan} alt="" />
+                <overlay><a href="./blog_japan" className="icon" title="User Profile"><button>JAPAN</button></a></overlay>
               </div>
             </div>
           </div>
