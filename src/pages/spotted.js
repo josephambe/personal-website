@@ -32,6 +32,7 @@ import duke_of_ed from '../assets/images/spotted/duke_of_ed/ice.jpg'
 import head_girl from '../assets/images/spotted/head_girl/shake_hand.jpg'
 import japan from '../assets/images/spotted/japan/temple.jpg'
 import thailand from '../assets/images/spotted/thailand/temple.jpg'
+import unicon from '../assets/images/spotted/unicon/emcee.jpg'
 
 
 
@@ -206,6 +207,12 @@ class Spotted extends React.Component {
               <div className="content">
                 <img src={thailand} alt="" />
                 <overlay><a href="./blog_thailand" className="icon" title="User Profile"><button>THAILAND</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={unicon} alt="" />
+                <overlay><a href="./blog_unicon" className="icon" title="User Profile"><button>UNICON 2019</button></a></overlay>
               </div>
             </div>
           </div>

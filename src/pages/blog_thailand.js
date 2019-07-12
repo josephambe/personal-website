@@ -56,7 +56,7 @@ class Thailand extends React.Component {
             <p>
               Overall, the stand out in Thailand for me was abundance of street food and markets; easily the best way to spend a day, trying local fruits, and window shopping the hundreds of tiny stalls.
             </p>
- 
+
           </div>
         </div>
       </Layout>
