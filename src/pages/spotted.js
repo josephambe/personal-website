@@ -33,6 +33,8 @@ import head_girl from '../assets/images/spotted/head_girl/shake_hand.jpg'
 import japan from '../assets/images/spotted/japan/temple.jpg'
 import thailand from '../assets/images/spotted/thailand/temple.jpg'
 import unicon from '../assets/images/spotted/unicon/emcee.jpg'
+import vietnam from '../assets/images/spotted/vietnam/hike.jpg'
+import xero from '../assets/images/spotted/xero/blue.jpg'
 
 
 
@@ -213,6 +215,18 @@ class Spotted extends React.Component {
               <div className="content">
                 <img src={unicon} alt="" />
                 <overlay><a href="./blog_unicon" className="icon" title="User Profile"><button>UNICON 2019</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={vietnam} alt="" />
+                <overlay><a href="./blog_vietnam" className="icon" title="User Profile"><button>VIETNAM</button></a></overlay>
+              </div>
+            </div>
+            <div className="grid-item">
+              <div className="content">
+                <img src={xero} alt="" />
+                <overlay><a href="./blog_xero" className="icon" title="User Profile"><button>Product Design</button></a></overlay>
               </div>
             </div>
           </div>
