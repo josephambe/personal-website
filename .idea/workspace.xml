@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aced2888-6d43-4619-b002-f08857e68953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/project_academic_papers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/project_cap_tracker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/project_hydrate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/project_nzssa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/project_nzssa_website.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/project_software_manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/project_udp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/project1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/project_rubber_duck.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/hackathon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hackathon.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/spotted.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="535">
@@ -36,92 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/project_nzssa.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/hackathon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/project_cap_tracker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/project_software_manage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/project_udp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/project_hydrate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/project_academic_papers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/project_rubber_duck.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/project_nzssa_website.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="705">
+              <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -207,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/assets/scss/components/_projectList.scss" />
         <option value="$PROJECT_DIR$/src/components/NavHackathon.js" />
         <option value="$PROJECT_DIR$/src/pages/blog_space_panel.js" />
-        <option value="$PROJECT_DIR$/src/pages/hackathon.js" />
         <option value="$PROJECT_DIR$/src/pages/project_rubber_duck.js" />
         <option value="$PROJECT_DIR$/src/pages/project_nzssa_website.js" />
         <option value="$PROJECT_DIR$/src/pages/project_academic_papers.js" />
@@ -217,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/pages/project_cap_tracker.js" />
         <option value="$PROJECT_DIR$/src/pages/project_nzssa.js" />
         <option value="$PROJECT_DIR$/src/pages/projects.js" />
+        <option value="$PROJECT_DIR$/src/pages/hackathon.js" />
       </list>
     </option>
   </component>
@@ -367,12 +277,12 @@
       <workItem from="1562660730836" duration="904000" />
       <workItem from="1562905839527" duration="4646000" />
       <workItem from="1562975492703" duration="238000" />
-      <workItem from="1563669970244" duration="13789000" />
+      <workItem from="1563669970244" duration="14216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186919000" />
+    <option name="totallyTimeSpent" value="187346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="27" width="1387" height="762" extended-state="0" />
@@ -764,16 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/hackathon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/blog_spirit_nz.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -875,6 +775,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="220" column="104" selection-start-line="220" selection-start-column="104" selection-end-line="220" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/hackathon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="78" column="26" lean-forward="true" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
