@@ -1,8 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-// import { render } from 'react-dom';
-// import Gallery from 'react-grid-gallery'
-// import PropTypes from 'prop-types';
 ;
 
 import Layout from '../components/layout'
@@ -16,12 +13,6 @@ import cap from '../assets/images/projects/cap_tracker/team.jpg'
 import nzssa from '../assets/images/projects/nzssa_website/logo.png'
 
 
-import pic02 from '../assets/images/pic03.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-
-
-import logo from '../assets/images/logo.png'
-import logoWink from '../assets/images/logo_wink.png'
 import HeaderProjects from '../components/HeaderProjects'
 
 
