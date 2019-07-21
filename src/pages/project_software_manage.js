@@ -3,12 +3,10 @@ import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
 import Layout from '../components/layout'
-import NavHackathon from '../components/NavHackathon'
-import HeaderHackathon from '../components/HeaderHackathon'
-import pic04 from '../assets/images/pic04.jpg'
-import home_duck from '../assets/images/home_duck.png'
+import bg from '../assets/images/projects/software_management/modules_in_system.png'
+import pic04 from '../assets/images/projects/software_management/modules_in_system.png'
 
-class Project1 extends React.Component {
+class Project_software_manage extends React.Component {
 
   render() {
 
@@ -19,7 +17,7 @@ class Project1 extends React.Component {
         <Helmet title="Generic Page Title" />
 
         <header id="header">
-          <img className="blog" src={pic04} alt=""/>
+          <img className="blog" src={bg} alt=""/>
           <div className="home-logo">
             <ul className="icons" style={{paddingRight: "50px"}}>
               <a href="/projects" className="icon fa-long-arrow-left">PROJECTS</a>
@@ -29,7 +27,7 @@ class Project1 extends React.Component {
 
         <div className="major">
           <div className="article">
-            <h1>PROJECT NUMERO UNO</h1>
+            <h1>Software Management</h1>
             <h2>The Summmary:</h2>
             <h3>STATUS: </h3><h4>Ongoing</h4>
             <div className="meter yellow"><span style={{width: "50%"}}></span></div>
@@ -52,4 +50,4 @@ class Project1 extends React.Component {
   }
 }
 
-export default Project1
+export default Project_software_manage

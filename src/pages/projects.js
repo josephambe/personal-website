@@ -32,7 +32,7 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_rubber_duck">
                     <h1>Rubber Duck Project</h1>
                     <h3>STATUS:</h3><p>Ongoing</p>
                     <p>Fine tunning my React skills after the NZSSA website by creating my own personal portfolio and website.</p>
@@ -46,25 +46,24 @@ class Projects extends React.Component {
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_rubber_duck">
                     <img src={rubber_duck} alt="" />
                   </a>
                 </div>
               </div>
             </div>
 
-
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
-                    <img src={nzssa_website} alt="" />
+                  <a href="./project_nzssa_website">
+                  <img src={nzssa_website} alt="" />
                   </a>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_nzssa_website">
                     <h1>NZSSA Website</h1>
                     <h3>STATUS:</h3><p>Complete</p>
                     <p>Luce and I wanted to learn React so used the opportunity to create a website for the NZSSA which I founded in 2018</p>
@@ -81,7 +80,7 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_academic_papers">
                     <h1>Academic Papers</h1>
                     <h3>STATUS:</h3><p>Complete</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
@@ -95,7 +94,7 @@ class Projects extends React.Component {
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_academic_papers">
                     <img src={academic_papers} alt="" />
                   </a>
                 </div>
@@ -105,14 +104,14 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_hydrate">
                     <img src={hydrate} alt="" />
                   </a>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_hydrate">
                     <h1>Hydrate To Own It</h1>
                     <h3>STATUS:</h3><p>Ongoing</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
@@ -130,7 +129,7 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_software_manage">
                     <h1>Software Management</h1>
                     <h3>STATUS:</h3><p>Complete</p>
                     <p>Estimating the time it would take to complete a software project based on an annoyingly vague brief</p>
@@ -144,7 +143,7 @@ class Projects extends React.Component {
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_software_manage">
                     <img src={software_management} alt="" />
                   </a>
                 </div>
@@ -154,14 +153,14 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_udp">
                     <img src={sunfire} alt="" />
                   </a>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_udp">
                     <h1>Securing UDP</h1>
                     <h3>STATUS:</h3><p>Complete</p>
                     <p>Creating a chatbot in UDP and then manually fixing the UDP weaknesses enable secure message sending</p>
@@ -179,7 +178,7 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_cap_tracker">
                     <h1>CAP Goal Tracker</h1>
                     <h3>STATUS:</h3><p>Ongoing</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
@@ -193,7 +192,7 @@ class Projects extends React.Component {
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_cap_tracker">
                     <img src={cap} alt="" />
                   </a>
                 </div>
@@ -203,14 +202,14 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_nzssa">
                     <img src={nzssa} alt="" />
                   </a>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project1">
+                  <a href="./project_nzssa">
                     <h1>NZSSA</h1>
                     <h3>STATUS:</h3><p>Ongoing</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
