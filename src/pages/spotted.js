@@ -35,6 +35,8 @@ import thailand from '../assets/images/spotted/thailand/temple.jpg'
 import unicon from '../assets/images/spotted/unicon/emcee.jpg'
 import vietnam from '../assets/images/spotted/vietnam/hike.jpg'
 import xero from '../assets/images/spotted/xero/speakers.jpg'
+import ic_agile from '../assets/images/spotted/ic_agile_foundations/bnz_sign.jpg'
+
 
 
 
@@ -55,6 +57,12 @@ class Spotted extends React.Component {
       <div id="gallery">
         <section id="content" className="gallery">
           <div className="grid-container">
+            <div className="grid-item">
+              <div className="content">
+                <img src={ic_agile} alt="" />
+                <overlay><a href="./blog_ic_agile" className="icon" title="User Profile"><button>Agile Foundations</button></a></overlay>
+              </div>
+            </div>
             <div className="grid-item">
               <div className="content">
                 <img src={gcsb} alt="" />
