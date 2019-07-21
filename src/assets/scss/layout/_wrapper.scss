@@ -14,6 +14,23 @@
 
 		//background-color: _palette(border-bg);
 		//background-color: _palette(invert,bg) !important;
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th, td {
+			padding: 8px;
+			text-align: left;
+		}
+		th {
+			font-weight: bold;
+			text-align: center;
+			border-bottom: 1px solid #ddd;
+		}
+		td {
+			padding-left: 5%;
+		}
 
 		takeaway {
 			margin-top: 2%;
@@ -61,6 +78,10 @@
 			text-align: center;
 			display: inline-block; /* display on the same line */
 			margin: 0;
+		}
+
+		.article h4 {
+			text-decoration: underline;
 		}
 
 		.article p {
