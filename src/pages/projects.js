@@ -67,11 +67,11 @@ class Projects extends React.Component {
                     <h1>NZSSA Website</h1>
                     <h3>STATUS:</h3><p>Complete</p>
                     <p>Luce and I wanted to learn React so used the opportunity to create a website for the NZSSA which I founded in 2018</p>
-                    <div className="meter yellow"><span style={{width: "30%"}}></span></div>
+                    <div className="meter yellow"><span style={{width: "60%"}}></span></div>
                     <label><left>Effortless</left><right>Very Difficult</right></label>
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
-                    <takeaway>Biggest takeaway is blah blah blah</takeaway>
-                    <takeaway> takeaway 2 is blah blah blah</takeaway>
+                    <takeaway>Good planning is key - saves you time, energy, resources.</takeaway>
+                    <takeaway>How to use GitHub, and a bit of GraphQL, React, CSS, and HTML</takeaway>
                   </a>
                 </div>
               </div>

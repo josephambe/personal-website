@@ -20,7 +20,7 @@ class Project_nzssa extends React.Component {
           <img className="blog" src={bg} alt=""/>
           <div className="home-logo">
             <ul className="icons" style={{paddingRight: "50px"}}>
-              <a href="/projects" className="icon fa-long-arrow-left">PROJECTS</a>
+              <a href="/projects" className="icon fa-long-arrow-left" style={{color: "white"}}>PROJECTS</a>
             </ul>
           </div>
         </header>
@@ -45,7 +45,7 @@ class Project_nzssa extends React.Component {
               (BELOW: a photo of one of our very first meetings)
             </p>
             <span className="image main"><img src={pic01} alt="" /></span>
-            
+
           </div>
         </div>
       </Layout>
