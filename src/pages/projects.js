@@ -212,17 +212,16 @@ class Projects extends React.Component {
                   <a href="./project_nzssa">
                     <h1>NZSSA</h1>
                     <h3>STATUS:</h3><p>Ongoing</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
-                    <div className="meter yellow"><span style={{width: "50%"}}></span></div>
+                    <p>Our mission is to inspire and empower students to realise their potential to contribute to the future of the space industry. Founded Feb 2018, now operating in 2 locations across the country.</p>
+                      <div className="meter yellow"><span style={{width: "20%"}}></span></div>
                     <label><left>Effortless</left><right>Very Difficult</right></label>
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
-                    <takeaway>Biggest takeaway is blah blah blah</takeaway>
-                    <takeaway> takeaway 2 is blah blah blah</takeaway>
+                    <takeaway>There is a HUGE passion and excitement to work in space amoung students.</takeaway>
+                    <takeaway>Too many students don't believe that they can contribute to the space industry.</takeaway>
                   </a>
                 </div>
               </div>
             </div>
-
 
           </div>
         </section>
