@@ -83,12 +83,12 @@ class Projects extends React.Component {
                   <a href="./project_academic_papers">
                     <h1>Academic Papers</h1>
                     <h3>STATUS:</h3><p>Complete</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
+                    <p>Contributed to the completion and publication of three acadmic papers on space technology, including Artificial Intelligence Implementation, Multi Media System Architecture, and a Ultrasonic Wireless Sensor Network.</p>
                     <div className="meter yellow"><span style={{width: "90%"}}></span></div>
                     <label><left>Effortless</left><right>Very Difficult</right></label>
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
-                    <takeaway>Biggest takeaway is blah blah blah</takeaway>
-                    <takeaway> takeaway 2 is blah blah blah</takeaway>
+                    <takeaway>Biggest takeaway is that writing academic papers is super difficult and time consuming</takeaway>
+                    <takeaway>You learn more teaching yourself something you're interested in than being lectured on something you're not</takeaway>
                   </a>
                 </div>
               </div>

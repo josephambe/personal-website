@@ -28,7 +28,7 @@ class Project_nzssa extends React.Component {
         <div className="major">
           <div className="article">
             <h1>Founding the NZSSA</h1>
-            <h2>The Summmary:</h2>
+            <h2>The Summary:</h2>
             <h3>STATUS: </h3><h4>Ongoing</h4>
             <div className="meter yellow"><span style={{width: "20%"}}></span></div>
             <label><left>Effortless</left><right>Very Difficult</right></label>
