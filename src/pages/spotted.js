@@ -16,7 +16,7 @@ import webstock from '../assets/images/spotted/webstock/webstock02.jpg'
 import tea_tech from '../assets/images/spotted/tea_tech/group.jpg'
 import powerco from '../assets/images/spotted/powerco/interns.jpeg'
 import kiwiRuby from '../assets/images/spotted/kiwi_ruby/room.jpg'
-import marathon from '../assets/images/spotted/marathon/2019.jpg'
+// import marathon from '../assets/images/spotted/marathon/2019.jpg'
 import outward_bound from '../assets/images/spotted/outward_bound/group_sail.jpg'
 import spirit_nz from '../assets/images/spotted/spirit_nz/nina.jpg'
 import venture_up from '../assets/images/spotted/venture_up/pitch.jpg'
@@ -78,7 +78,7 @@ class Spotted extends React.Component {
             </div>
             <div className="grid-item">
               <div className="content">
-                <img src={marathon} alt="" />
+                <img src={unicon} alt="" />
                 <overlay><a href="./blog_marathon" className="icon" title="User Profile"><button>Half Marathon</button></a></overlay>
               </div>
             </div>
