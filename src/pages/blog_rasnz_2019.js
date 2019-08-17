@@ -2,10 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import pic02 from '../assets/images/spotted/rasnz_2019/selfie.jpg'
+// import pic02 from '../assets/images/spotted/rasnz_2019/selfie.jpg'
 import pic01 from '../assets/images/spotted/rasnz_2019/stage.jpg'
 
-import bgPic from '../assets/images/spotted/rasnz_2019/beach.jpg'
+// import bgPic from '../assets/images/spotted/rasnz_2019/beach.jpg'
 
 class Hackathon extends React.Component {
 
@@ -18,7 +18,7 @@ class Hackathon extends React.Component {
         <Helmet title="Generic Page Title" />
 
         <header id="header">
-          <img className="blog" src={bgPic} alt=""/>
+          {/*<img className="blog" src={bgPic} alt=""/>*/}
           <div className="home-logo">
             <ul className="icons" style={{paddingRight: "50px"}}>
               <a href="/spotted" className="icon fa-long-arrow-left" style={{color: "white"}}>SPOTTED</a>
@@ -38,9 +38,9 @@ class Hackathon extends React.Component {
               Just like in 2018, I left inspired, with about 20 new friends and contacts, and with great big grand plans of how to get more students into the space industry.
             </p>
 
-            <section id="content" className="main">
-              <span className="image main"><img src={pic01} alt="" /></span>
-            </section>
+            {/*<section id="content" className="main">*/}
+              {/*<span className="image main"><img src={pic01} alt="" /></span>*/}
+            {/*</section>*/}
             <p>
               The highlights of the conference definetly included seeing Megan, Anushka, and Aayushi do a presentation on the NZSSA Christchurch branch
               (which was inspired by Vee and I'l talk at last years conference!) and discussing the opportunities to study Astronomy at the University of Cantebury.
@@ -48,9 +48,9 @@ class Hackathon extends React.Component {
               It was so great and so inspiring, that she ended up winning the best talk of the conference!
             </p>
 
-            <section id="content" className="main">
-              <span className="image main"><img src={pic02} alt="" /></span>
-            </section>
+            {/*<section id="content" className="main">*/}
+              {/*<span className="image main"><img src={pic02} alt="" /></span>*/}
+            {/*</section>*/}
             <p>
               On top of the incredible speakers, locations, and attendees, I have to mention the quality of the dinner.
               It was excellent, and the speech delivered during dessert on the scope of the galaxy really blew me away.
