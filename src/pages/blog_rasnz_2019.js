@@ -2,10 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import pic02 from '../assets/images/spotted/rasnz_2019/selfie.JPG'
-import pic01 from '../assets/images/spotted/rasnz_2019/stage.JPG'
+import pic02 from '../assets/images/spotted/rasnz_2019/selfie.jpg'
+import pic01 from '../assets/images/spotted/rasnz_2019/stage.jpg'
 
-import bgPic from '../assets/images/spotted/rasnz_2019/beach.JPG'
+import bgPic from '../assets/images/spotted/rasnz_2019/beach.jpg'
 
 class Hackathon extends React.Component {
 
