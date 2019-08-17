@@ -55,7 +55,7 @@ class Hackathon extends React.Component {
             </p>
 
             <section id="content" className="main">
-              <span className="image main"><img src={pic03} alt="" /></span>
+              <span className="image main"><img src={pic01} alt="" /></span>
             </section>
 
           </div>
