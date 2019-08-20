@@ -44,6 +44,12 @@ class Space_Panel extends React.Component {
               After the panel, we all headed to a NZSSA ‘Party like it’s 1969’ event with pizza, space music, drinks, balloons, chips, and footage of the actual moon landing playing in the background.
               It was a super spacey evening filled with talk about travelling to Mars, conspiracy theories, Elon Musk, and I loved it.
             </p>
+            <section id="content" className="main">
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/dvkU4xEiUTI" frameBorder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen></iframe>
+            </section>
 
 
           </div>

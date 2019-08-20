@@ -5,7 +5,8 @@ import Layout from '../components/layout'
 // import pic02 from '../assets/images/spotted/rasnz_2019/selfie.jpg'
 // import pic01 from '../assets/images/spotted/rasnz_2019/stage.jpg'
 
-// import bgPic from '../assets/images/spotted/rasnz_2019/beach.jpg'
+ // import bgPic from '../assets/images/spotted/rasnz_2019/beach.jpg'
+
 
 class Hackathon extends React.Component {
 
@@ -18,7 +19,8 @@ class Hackathon extends React.Component {
         <Helmet title="Generic Page Title" />
 
         <header id="header">
-          {/*<img className="blog" src={bgPic} alt=""/>*/}
+           {/*<img className="blog" src={bgPic} alt=""/>*/}
+
           <div className="home-logo">
             <ul className="icons" style={{paddingRight: "50px"}}>
               <a href="/spotted" className="icon fa-long-arrow-left" style={{color: "white"}}>SPOTTED</a>
