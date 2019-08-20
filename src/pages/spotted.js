@@ -16,14 +16,14 @@ import webstock from '../assets/images/spotted/webstock/webstock02.jpg'
 import tea_tech from '../assets/images/spotted/tea_tech/group.jpg'
 import powerco from '../assets/images/spotted/powerco/interns.jpeg'
 import kiwiRuby from '../assets/images/spotted/kiwi_ruby/room.jpg'
-import marathon from '../assets/images/spotted/marathon/2019.jpg'
+// import marathon from '../assets/images/spotted/marathon/2019.jpg'
 import outward_bound from '../assets/images/spotted/outward_bound/group_sail.jpg'
 import spirit_nz from '../assets/images/spotted/spirit_nz/nina.jpg'
 import venture_up from '../assets/images/spotted/venture_up/pitch.jpg'
 import sustainability_summit from '../assets/images/spotted/sustainability_summit/conference.jpg'
 import game_threats from '../assets/images/spotted/game_threats/screen.jpeg'
 import rasnz_2018 from '../assets/images/spotted/rasnz_2018/group.jpg'
-import rasnz_2019 from '../assets/images/spotted/rasnz_2019/exec.jpg'
+// import rasnz_2019 from '../assets/images/spotted/rasnz_2019/exec.jpg'
 import singapore from '../assets/images/spotted/singapore/nus.jpg'
 import malaysia from '../assets/images/spotted/malaysia/map.jpg'
 import bali from '../assets/images/spotted/bali/rice_fields.jpeg'
@@ -78,7 +78,7 @@ class Spotted extends React.Component {
             </div>
             <div className="grid-item">
               <div className="content">
-                <img src={marathon} alt="" />
+                <img src={unicon} alt="" />
                 <overlay><a href="./blog_marathon" className="icon" title="User Profile"><button>Half Marathon</button></a></overlay>
               </div>
             </div>
@@ -90,7 +90,7 @@ class Spotted extends React.Component {
             </div>
             <div className="grid-item">
               <div className="content">
-                <img src={rasnz_2019} alt="" />
+                <img src={rasnz_2018} alt="" />
                 <overlay><a href="./blog_rasnz_2019" className="icon" title="User Profile"><button>RASNZ 2019</button></a></overlay>
               </div>
             </div>

@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 import pic01 from '../assets/images/spotted/marathon/other_races.png'
-import pic03 from '../assets/images/spotted/marathon/2019.jpg'
+// import pic03 from '../assets/images/spotted/marathon/2019.jpg'
 import bgPic from '../assets/images/spotted/marathon/crowd.jpg'
 
 class Hackathon extends React.Component {
@@ -55,7 +55,7 @@ class Hackathon extends React.Component {
             </p>
 
             <section id="content" className="main">
-              <span className="image main"><img src={pic03} alt="" /></span>
+              <span className="image main"><img src={pic01} alt="" /></span>
             </section>
 
           </div>
