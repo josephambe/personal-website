@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import pic01 from '../assets/images/spotted/singapore/foodTour.jpg'
 import pic06 from '../assets/images/spotted/singapore/long_campus.jpeg'
-import pic07 from '../assets/images/spotted/singapore/nus.jpg'
+// import pic07 from '../assets/images/spotted/singapore/nus.jpg'
 
 import pic02 from '../assets/images/spotted/singapore/flag.jpg'
 import pic04 from '../assets/images/spotted/singapore/ubun.jpg'
@@ -50,7 +50,7 @@ class Hackathon extends React.Component {
             </p>
 
             <section id="content" className="main">
-              <span className="image main"><img src={pic07} alt="" /></span>
+              <span className="image main"><img src={pic06} alt="" /></span>
             </section>
             <section id="content" className="main">
               <span className="image main"><img src={pic06} alt="" /></span>

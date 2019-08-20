@@ -7,6 +7,7 @@ import Layout from '../components/layout'
 
  // import bgPic from '../assets/images/spotted/rasnz_2019/beach.jpg'
 
+
 class Hackathon extends React.Component {
 
   render() {
@@ -19,6 +20,7 @@ class Hackathon extends React.Component {
 
         <header id="header">
            {/*<img className="blog" src={bgPic} alt=""/>*/}
+
           <div className="home-logo">
             <ul className="icons" style={{paddingRight: "50px"}}>
               <a href="/spotted" className="icon fa-long-arrow-left" style={{color: "white"}}>SPOTTED</a>
