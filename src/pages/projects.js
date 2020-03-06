@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Link } from "gatsby"
 ;
 
 import Layout from '../components/layout'
@@ -32,7 +33,7 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="project_rubber_duck">
+                  <Link to="/project_rubber_duck/">
                     <h1>Rubber Duck Project</h1>
                     <h3>STATUS:</h3><p>Ongoing</p>
                     <p>Fine tunning my React skills after the NZSSA website by creating my own personal portfolio and website.</p>
@@ -41,14 +42,14 @@ class Projects extends React.Component {
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
                     <takeaway>Biggest takeaway is that planning makes a huge difference. Design process is great. </takeaway>
                     <takeaway>Increased skills in JavaScript, CSS. Used AdobeXD to prototype.</takeaway>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="project_rubber_duck">
+                  <Link to="/project_rubber_duck/">
                     <img src={rubber_duck} alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
