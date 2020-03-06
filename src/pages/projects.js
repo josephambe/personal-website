@@ -57,14 +57,14 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_nzssa_website">
+                  <Link to="/project_nzssa_website/">
                   <img src={nzssa_website} alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_nzssa_website">
+                  <Link to="/project_nzssa_website/">
                     <h1>NZSSA Website</h1>
                     <h3>STATUS:</h3><p>Complete</p>
                     <p>Luce and I wanted to learn React so used the opportunity to create a website for the NZSSA which I founded in 2018</p>
@@ -73,7 +73,7 @@ class Projects extends React.Component {
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
                     <takeaway>Good planning is key - saves you time, energy, resources.</takeaway>
                     <takeaway>How to use GitHub, and a bit of GraphQL, React, CSS, and HTML</takeaway>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -81,7 +81,7 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_academic_papers">
+                  <Link to="/project_academic_papers/">
                     <h1>Academic Papers</h1>
                     <h3>STATUS:</h3><p>Complete</p>
                     <p>Contributed to the completion and publication of three acadmic papers on space technology, including Artificial Intelligence Implementation, Multi Media System Architecture, and a Ultrasonic Wireless Sensor Network.</p>
@@ -90,14 +90,14 @@ class Projects extends React.Component {
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
                     <takeaway>Biggest takeaway is that writing academic papers is super difficult and time consuming</takeaway>
                     <takeaway>You learn more teaching yourself something you're interested in than being lectured on something you're not</takeaway>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_academic_papers">
+                  <Link to="/project_academic_papers/">
                     <img src={academic_papers} alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -105,14 +105,14 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_hydrate">
+                  <Link to="/project_hydrate/">
                     <img src={hydrate} alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_hydrate">
+                  <Link to="/project_hydrate/">
                     <h1>Hydrate To Own It</h1>
                     <h3>STATUS:</h3><p>Ongoing</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
@@ -121,7 +121,7 @@ class Projects extends React.Component {
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
                     <takeaway>Biggest takeaway is blah blah blah</takeaway>
                     <takeaway> takeaway 2 is blah blah blah</takeaway>
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -130,7 +130,7 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_software_manage">
+                  <Link to="/project_software_manage/">
                     <h1>Software Management</h1>
                     <h3>STATUS:</h3><p>Complete</p>
                     <p>Estimating the time it would take to complete a software project based on an annoyingly vague brief</p>
@@ -139,14 +139,14 @@ class Projects extends React.Component {
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
                     <takeaway>Applied Function Point Analysis to estimate time of Software Project</takeaway>
                     <takeaway>Studied and presented multi-cultural management practices</takeaway>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_software_manage">
+                  <Link to="/project_software_manage/">
                     <img src={software_management} alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -154,14 +154,14 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_udp">
+                  <Link to="/project_udp/">
                     <img src={sunfire} alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_udp">
+                  <Link to="/project_udp/">
                     <h1>Securing UDP</h1>
                     <h3>STATUS:</h3><p>Complete</p>
                     <p>Creating a chatbot in UDP and then manually fixing the UDP weaknesses enable secure message sending</p>
@@ -170,7 +170,7 @@ class Projects extends React.Component {
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
                     <takeaway>Biggest takeaway is blah blah blah</takeaway>
                     <takeaway> takeaway 2 is blah blah blah</takeaway>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -179,7 +179,7 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_cap_tracker">
+                  <Link to="/project_cap_tracker/">
                     <h1>CAP Goal Tracker</h1>
                     <h3>STATUS:</h3><p>Ongoing</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores, in nam natus officiis quae. Eligendi laboriosam pariatur perspiciatis? Beatae ea harum illum incidunt iste sed! Ad blanditiis mollitia non.</p>
@@ -188,14 +188,14 @@ class Projects extends React.Component {
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
                     <takeaway>Biggest takeaway is blah blah blah</takeaway>
                     <takeaway> takeaway 2 is blah blah blah</takeaway>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_cap_tracker">
+                  <Link to="/project_cap_tracker/">
                     <img src={cap} alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -203,14 +203,14 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_nzssa">
+                  <Link to="/project_nzssa/">
                     <img src={nzssa} alt="" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_nzssa">
+                  <Link to="/project_nzssa/">
                     <h1>NZSSA</h1>
                     <h3>STATUS:</h3><p>Ongoing</p>
                     <p>Our mission is to inspire and empower students to realise their potential to contribute to the future of the space industry. Founded Feb 2018, now operating in 2 locations across the country.</p>
@@ -219,7 +219,7 @@ class Projects extends React.Component {
                     < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
                     <takeaway>There is a HUGE passion and excitement to work in space amoung students.</takeaway>
                     <takeaway>Too many students don't believe that they can contribute to the space industry.</takeaway>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
