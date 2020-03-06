@@ -32,7 +32,7 @@ class Projects extends React.Component {
             <div className="row">
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_rubber_duck">
+                  <a href="project_rubber_duck">
                     <h1>Rubber Duck Project</h1>
                     <h3>STATUS:</h3><p>Ongoing</p>
                     <p>Fine tunning my React skills after the NZSSA website by creating my own personal portfolio and website.</p>
@@ -46,7 +46,7 @@ class Projects extends React.Component {
               </div>
               <div className="project-item">
                 <div className="content">
-                  <a href="./project_rubber_duck">
+                  <a href="project_rubber_duck">
                     <img src={rubber_duck} alt="" />
                   </a>
                 </div>
