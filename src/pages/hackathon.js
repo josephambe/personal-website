@@ -8,6 +8,9 @@ import HeaderHackathon from '../components/HeaderHackathon'
 import act_in_space1 from '../assets/images/hackathons/act_in_space/talk.jpg'
 import act_in_space2 from '../assets/images/hackathons/act_in_space/table.jpg'
 import vr from '../assets/images/hackathons/virtual_realities/team.jpg'
+import cc_team from '../assets/images/hackathons/create_camp/team_photo.png'
+import cc_working from '../assets/images/hackathons/create_camp/working.png'
+import cc_mentors from '../assets/images/hackathons/create_camp/mentors.png'
 
 class Hackathon extends React.Component {
   constructor(props) {
@@ -42,8 +45,38 @@ class Hackathon extends React.Component {
         <section id="createCamp" className="main">
           <div className="major">
             <header className="major" style={{paddingTop: "100px"}}>
-              <h2>Create Camp...coming soon!</h2>
+                <h2>Create Camp</h2>
             </header>
+            <p>August, 2019. Wellington. One weekend. </p>< br />
+            <p>
+                Create Camp is a 2-day Hackathon held annually by Summer of Tech. This year (2019), it was hosted at Flux Federation. With over 4,000 students registered with Summer of Tech, and an impressive track record of 90% of participants of Create Camp being offered jobs at the end of the year, getting a spot in this event is highly competitive.
+                < br />< br />
+                <section id="content" className="main">
+                    <span className="image main"><img src={cc_working} alt="" /></span>
+                </section>
+                The 40 developers and 10 design students worked for 2 days on a product that met the one, extremely brief, requirement; use a NZ API. At the time, Wellington on a Plate was taking over the city with cafes, bars, and restaurants all offering up their best burgers for locals to rank. Due to the novelty of these burgers, they are often quite expensive. Unfortunately for students with the high enthusiasm and low income, this is a problem. Browsing the website can be tiresome and lengthy. And so comes our product; BURGER BRICK ROAD. The website that shows students where to find the cheapest burgers within walking range of their location.
+                < br />< br />
+                For this hackathon, I was determined to be on the back end. In other similar events, I’ve always been the engineer to work on the front end or even business pitch. And as much as I enjoy those roles, this time I wanted to put what I was learning at university to the test. Our team was made up of 4 engineers and one brilliant designer who did a fantastic job at pushing us engineers to make quality design decisions.
+                < br />< br />
+                <section id="content" className="main">
+                    <span className="image main"><img src={cc_team} alt="" /></span>
+                </section>
+                Some highlights of the entire event included:
+                <ul>
+                      <li>Trent, the Summer of Tech representative, ringing a handheld bell while walking round the rooms yelling at everyone to get out at the end of the day (Seriously, I think this is the first hackathon I’ve been to where everyone HAD to stop work at 5.30PM).</li>
+                      <li>Presenting our teams product to the rest of the teams and mentors.</li>
+                      <li>Hearing what the other teams had produced in such a small amount of time</li>
+                      <li>Working with an amazing range of mentors from Xero, Trade Me, Flux, and beyond. </li>
+                      <li>Having fun with my team in one of the most relaxed (and successful) hackathons I’ve ever attended. </li>
+                      <li>Winning the BEST COLLABERATION Award for our awesome team work and business plan of integrating with Wellington on a Plate.</li>
+                </ul>
+                < br />< br />
+                <section id="content" className="main">
+                    <span className="image main"><img src={cc_mentors} alt="" /></span>
+                </section>
+              Create Camp was a really well-run event with special attention to student well-being which I am very appreciative of. It helped to show a growing side of tech that I am starting to notice – the acknowledgment that a job can just be a job. There is more to life than the code on your computer.
+            </p>
+            < br />
           </div>
         </section>
 
@@ -114,6 +147,7 @@ class Hackathon extends React.Component {
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen></iframe>
         </section>
+
       </Layout>
     )
   }
