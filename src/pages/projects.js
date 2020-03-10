@@ -12,6 +12,8 @@ import software_management from '../assets/images/projects/software_management/m
 import sunfire from '../assets/images/projects/udp/sunfire.png'
 import cap from '../assets/images/projects/cap_tracker/team.jpg'
 import nzssa from '../assets/images/projects/nzssa_website/logo.png'
+import mm_group from '../assets/images/projects/mentorme/trailhead_tues.png'
+
 
 
 import HeaderProjects from '../components/HeaderProjects'
@@ -29,6 +31,30 @@ class Projects extends React.Component {
       <div id="projectList">
         <section id="content" className="projectList">
           <div className="grid-container">
+
+              <div className="row">
+                <div className="project-item">
+                  <div className="content">
+                    <Link to="/project_mentor_me/">
+                      <h1>Mentor:Me Salesforce</h1>
+                      <h3>STATUS:</h3><p>Complete</p>
+                      <p>First introduction to Salesforce through client project.</p>
+                      <div className="meter yellow"><span style={{width: "70%"}}></span></div>
+                      <label><left>Effortless</left><right>Very Difficult</right></label>
+                      < br/><h3>BIGGEST TAKEAWAYS:</h3>< br/>
+                      <takeaway>Biggest takeaway is to check the App Exchange first! </takeaway>
+                      <takeaway>Increased skills in Salesforce, Gitlab, CI/CD, Project Management, Agile.</takeaway>
+                    </Link>
+                  </div>
+                </div>
+                <div className="project-item">
+                  <div className="content">
+                    <Link to="/project_mentor_me/">
+                      <img src={mm_group} alt="" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
 
             <div className="row">
               <div className="project-item">
