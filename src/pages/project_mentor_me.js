@@ -30,7 +30,7 @@ class Project_mentor_me extends React.Component {
           <div className="article">
             <h1>MENTOR:ME SALESFORCE PROJECT</h1>
             <h2>The Summmary:</h2>
-            <h3>STATUS: </h3><h4>Ongoing</h4>
+            <h3>STATUS: </h3><h4>Complete</h4>
             <div className="meter yellow"><span style={{width: "70%"}}></span></div>
             <label><left>Effortless</left><right>Very Difficult</right></label>
             <takeaway>Biggest takeaway is to check the App Exchange first!</takeaway>
