@@ -3,6 +3,8 @@ import Popup from 'reactjs-popup'
 import Header from './Header'
 import logo from '../assets/images/logo.png'
 import logoWink from '../assets/images/logo_wink.png'
+import { Link } from 'gatsby'
+
 
 const Modal = (props) => (
   <Popup
@@ -48,15 +50,9 @@ const Modal = (props) => (
           {/*>*/}
             {/*My Exchange*/}
           {/*</button>*/}
-          <button
-            className="button"
-            onClick={() => {
-              // console.log('modal closed ')
-              // close()
-            }}
-          >
-            Rubber Duck Project
-          </button>
+          <ul className="actions">
+              <li><Link to="/project_rubber_duck" className="button">Rubber Duck Project</Link></li>
+            </ul>
         </div>
       </div>
     )}

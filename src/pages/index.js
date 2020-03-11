@@ -80,7 +80,7 @@ class Index extends React.Component {
               Outside of my studies, I have been independently improving my technical skills by participating in various hackathons and personal projects.< br />< br />
               I have experience using languages such as Java, HTTP, C, Python, and React.< br />< br />
               <ul className="actions">
-                <li><Link to="/generic" className="button">My Hardest Project to Date</Link></li>
+                <li><Link to="/project_mentor_me" className="button">My Hardest Project to Date</Link></li>
               </ul>
               <header className="major">
                 <p>AWARDS</p>
@@ -116,9 +116,9 @@ class Index extends React.Component {
                 <header className="major">
                   <p>I'M EXCITED ABOUT</p>
                 </header>
-                <p>1. The future of Space! In 2018 I co-founded…..oh you want to know more? Read about it here.<br /><br />
-                  2. UI and UX design process is my current obsession. Yummy designs and intuitive use. See my latest project in this area!<br /><br />
-                  3. Also Microsoft recently announced they are storying big data in DNA?!</p>
+                <p>1. Salesforce! I founded NZs first student Salesforce group and am doing my Software Engineering thesis on it.<br /><br />
+                  2. Becoming better at public speaking. Combining sales and tech? <br /><br />
+                  3. Drones instead of fireworks ?! See the New Year celebration in China.</p>
               </div>
             </div>
 
